@@ -1,0 +1,22 @@
+version: 1
+project:
+  title: Catching ocean turbulence
+  subtitle: From a microstructure profile to a mixing flux
+  authors:
+    - name: Mathieu Gentil
+      affiliations: LEGOS / IRD
+      orcid: 0000-0002-9523-9625
+  github: https://github.com/mgentil17/catching-ocean-turbulence
+  toc:
+    - file: intro.md
+    - file: 01_why_mixing.md
+    - file: 02_turbulence_basics.md
+    - file: 03_measuring.md
+    - file: 04_at_sea.md
+    - title: Hands-on
+      children:
+        - file: 05_from_signal_to_epsilon.md
+        - file: 06_from_epsilon_to_flux.md
+    - file: references.md
+site:
+  template: book-theme
