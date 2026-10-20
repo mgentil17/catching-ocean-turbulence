@@ -9,14 +9,20 @@ project:
   github: https://github.com/mgentil17/catching-ocean-turbulence
   toc:
     - file: intro.md
-    - file: 01_why_mixing.md
-    - file: 02_turbulence_basics.md
-    - file: 03_measuring.md
-    - file: 04_at_sea.md
-    - title: Hands-on
+    - title: 1. Introduction
+      children:
+        - file: 01_why_mixing.md
+        - file: 02_turbulence_basics.md
+    - title: 2. Measuring turbulence
+      children:
+        - file: 03_measuring.md
+    - title: 3. At sea
+      children:
+        - file: 04_at_sea.md
+    - title: 4. Hands-on
       children:
         - file: 05_from_signal_to_epsilon.md
-        - file: 06_from_epsilon_to_flux.md
+        - file: 06_from_epsilon_to_fluxes.md
     - file: references.md
 site:
   template: book-theme
