@@ -24,15 +24,6 @@ By the end of the course, you should be able to:
 
 Parts 1 to 3 are short reading pages. Part 4 is hands-on, with Jupyter notebooks that run in the browser.
 
-:::{note} Before we start: make a guess
-In part 4 we will look at microstructure profiles collected along 10°W in the equatorial Atlantic.
-
-- Do you expect stronger turbulence **on the equator** or **at 10°S**?
-- At the equator, do you expect stronger turbulence **during the day** or **during the night**?
-
-Write down your answers. We will check them with the data.
-:::
-
 ## Data
 
 The profiles used in part 4 were collected during the PIRATA FR-36 cruise, with a VMP, along 10°W from 0° to 10°S, and during a 72 h fixed station at 0°N, 10°W with one profile every 3 hours.
