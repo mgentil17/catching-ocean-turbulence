@@ -4,7 +4,7 @@
 
 :::{figure} figures/STS41G-35-94.JPG
 :label: fig-swirls
-:width: 80%
+:width: 90%
 Spiral eddies made visible by sun light in the eastern Mediterranean, photographed by astronauts during Space Shuttle mission STS-41G on 7 October 1984 (NASA photo STS41G-35-94, cropped). Image courtesy of the Earth Science and Remote Sensing Unit, NASA Johnson Space Center.
 :::
 
