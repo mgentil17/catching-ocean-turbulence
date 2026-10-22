@@ -47,3 +47,16 @@ All profiles come from the **PIRATA FR-36** cruise on board R/V *Thalassa* (Marc
 ## About
 
 Prepared by Mathieu Gentil (LEGOS / IRD, Toulouse) for a workshop at the Universidad de Costa Rica. Comments and corrections are welcome through the [GitHub repository](https://github.com/mgentil17/catching-ocean-turbulence).
+
+::::{grid} 2 2 2 2
+:::{image} figures/logo_legos.png
+:alt: LEGOS
+:height: 70px
+:align: center
+:::
+:::{image} figures/logo_ird.png
+:alt: IRD
+:height: 70px
+:align: center
+:::
+::::
