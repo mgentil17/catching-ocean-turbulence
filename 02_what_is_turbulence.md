@@ -1,12 +1,10 @@
 # 2. What is turbulence?
 
-*In part 1, $\varepsilon$ decreased by a factor of about 100 over a few tens of metres. What does $\varepsilon$ measure, and why does it change so much with depth? To answer, we follow the energy: where it comes from, where it goes, and what stops it from mixing the ocean.*
+In part 1, $\varepsilon$ decreased by a factor of about 100 over a few tens of metres. To understand why, we need to know what makes the ocean turbulent, what $\varepsilon$ measures, and what can make turbulence strong in one layer and weak in another.
 
-% Time: 25 min. Five equations in total, each explained in one sentence and applied to our profile.
+## 2.1 From laminar to turbulent flow
 
-## 2.1 From smooth to turbulent
-
-In 1883, Osborne Reynolds ran a simple experiment. Water flowed through a long glass tube, and he injected a thin filament of coloured dye at its entrance. At low speed, the filament stayed straight along the whole tube: the flow was **laminar**. When he increased the speed, the filament suddenly broke into eddies and the colour spread across the whole tube: the flow had become **turbulent** ({numref}`fig-reynolds`).
+n 1883, Reynolds ran a simple experiment. Water flowed through a long glass tube, and he injected a thin filament of coloured dye at its entrance. At low speed, the filament stayed straight along the whole tube: the flow was **laminar**. When he increased the speed, the filament suddenly broke into eddies and the colour spread across the whole tube: the flow had become **turbulent** ({numref}`fig-reynolds`).
 
 :::{figure} figures/reynolds1883.png
 :label: fig-reynolds
@@ -14,23 +12,36 @@ In 1883, Osborne Reynolds ran a simple experiment. Water flowed through a long g
 Reynolds' sketches of the dye filament in his glass tube: straight at low speed (top), broken into eddies at higher speed (bottom). From Reynolds (1883), *Philosophical Transactions of the Royal Society of London*, 174, 935–982 (public domain).
 :::
 
-Reynolds showed that the change does not depend on the speed alone, but on one dimensionless number, now called the **Reynolds number**:
+Reynolds showed that the change does not depend on the speed alone, but on a dimensionless number, now called the **Reynolds number**:
 
 $$
 Re = \frac{U L}{\nu}
 $$
 
-where $U$ is a typical velocity, $L$ the length scale over which the velocity changes, and $\nu \approx 10^{-6}$ m² s⁻¹ the kinematic viscosity of seawater. $Re$ compares two effects in the equations of motion: **inertia**, which stretches the flow into smaller and smaller structures, and **viscosity**, which smooths them out (Thorpe, 2007). In Reynolds' tube, the flow became turbulent when $Re$, based on the tube diameter and the mean velocity, exceeded about 2000.
+where $U$ is a typical velocity, $L$ a typical length of the flow, and $\nu \approx 10^{-6}$ m² s⁻¹ the kinematic viscosity of seawater. $L$ is the scale over which the velocity changes: in Reynolds' tube, it is the diameter of the tube; in the ocean, it can be the thickness of a layer where the current changes with depth.
+
+$Re$ compares **inertia**, which stretches the flow into smaller and smaller structures, with **viscosity**, which smooths them out. In a tube, the flow stays laminar below $Re \approx 2300$ and becomes turbulent above a few thousand.
+
+:::{dropdown} Where does $Re$ come from?
+In the equation of motion of a fluid (the Navier–Stokes equation), inertia appears in the advection term $(\mathbf{u}\cdot\nabla)\mathbf{u}$, of order $U^2/L$, and viscosity in the term $\nu\nabla^2\mathbf{u}$, of order $\nu U/L^2$. Their ratio is
+$$
+\frac{U^2/L}{\nu U/L^2} = \frac{UL}{\nu} = Re .
+$$
+When $Re$ is large, viscosity is negligible at the scale $L$ of the flow.
+:::
 
 ::::{note} Your turn
 Take a current whose speed changes by 0.1 m s⁻¹ over 10 m of depth, a modest value for the upper ocean. What is $Re$? Compare it with the value in Reynolds' tube.
 
 :::{dropdown} Answer
-$Re = (0.1 \times 10)/10^{-6} = 10^{6}$, about 500 times larger than the transition in Reynolds' tube. Ocean flows have very large Reynolds numbers.
+$Re = (0.1 \times 10)/10^{-6} = 10^{6}$, several hundred times larger than the transition in a tube. With the scale of an ocean basin ($U = 0.1$ m s⁻¹, $L = 1000$ km), $Re$ reaches $10^{11}$ (Stewart, 2008). Whatever the scale, $Re$ is huge.
 :::
 ::::
 
-So the ocean *can* be turbulent almost everywhere. Yet in part 1, $\varepsilon$ was about 100 times smaller below the thermocline than just below the mixed layer. A large Reynolds number is therefore not enough: something else decides **where** turbulence is strong. To understand what, we first need to know what turbulence does with its energy.
+In the ocean, $Re$ is far above the threshold of a tube: at the scale of currents, viscosity is much too weak to keep the flow laminar. **The ocean is turbulent.**
+
+Yet turbulence cannot grow without limit. Winds, tides and currents supply it with energy all the time: this energy must be removed somewhere, or turbulence would keep increasing. The only process that turns the energy of motion into heat is viscosity. But we have just seen that viscosity is negligible at the scale of ocean currents. So where can viscosity act? As we will see, it is a question of scale.
+
 
 ## 2.2 The energy cascade: what $\varepsilon$ really is
 
