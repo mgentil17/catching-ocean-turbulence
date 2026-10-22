@@ -9,24 +9,11 @@ project:
   github: https://github.com/mgentil17/catching-ocean-turbulence
   toc:
     - file: intro.md
-    - title: 1. Why vertical mixing matters
-      children:
-        - file: 01_why_mixing_matters.md
-    - title: 2. Ocean turbulence, the essentials
-      children:
-        - file: 02_what_is_turbulence.md
-        - file: 03_stratification_and_fluxes.md
-    - title: 3. Measuring ocean turbulence
-      children:
-        - file: 04_measuring_turbulence.md
-        - file: 05_from_shear_to_epsilon.md
-        - file: 06_vmp_at_sea.md
-    - title: "4. Application: vertical turbulent fluxes in the tropical Atlantic"
-      children:
-        - file: 07_notebook_shear_to_epsilon.md
-        - file: 08_spatial_case.md
-        - file: 09_temporal_case.md
-        - file: 10_tracer_fluxes.md
+    - file: 01_turbulence_profile.md
+    - file: 02_what_is_turbulence.md
+    - file: 03_why_does_it_matter.md
+    - file: 04_how_do_we_measure_it.md
+    - file: 05_fluxes_tropical_atlantic.md
     - file: references.md
 site:
   template: book-theme
