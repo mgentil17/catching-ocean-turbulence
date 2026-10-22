@@ -40,12 +40,6 @@ Turbulent fluxes of heat and oxygen in the tropical Atlantic, computed from real
 
 Parts 1 to 4 are short reading pages. Part 5 is hands-on: the notebooks run in your web browser, there is nothing to install.
 
-:::{important} Keep this question in mind
-Is ocean turbulence stronger **on the equator** or **a few degrees south of it**?
-
-Write down your guess. We will answer it with the data in part 5.
-:::
-
 ## Data
 
 All profiles come from the **PIRATA FR-36** cruise on board R/V *Thalassa* (March–April 2026), collected with a VMP 250 vertical microstructure profiler, along 10°W between 1.5°N and 10°S. The data were processed following the ATOMIX recommendations for shear probes (Lueck et al., 2024).
