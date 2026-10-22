@@ -17,3 +17,7 @@ project:
     - file: references.md
 site:
   template: book-theme
+  options:
+    logo: figures/logo.svg
+    logo_text: Catching ocean turbulence
+    favicon: figures/logo.svg
