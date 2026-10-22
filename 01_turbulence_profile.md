@@ -18,34 +18,37 @@ A warm, well-mixed surface layer, about 13 m thick, sits on top of the **thermoc
 ::::
 
 ::::{card} 🫧 Life just below the surface layer
-Oxygen peaks around 40 dbar, then drops quickly: this is the **oxycline**. Chlorophyll peaks around 47 dbar, in the upper thermocline: this is the **chlorophyll maximum**, where phytoplankton find both enough light from above and nutrients from below (Cullen, 2015).
+Oxygen peaks around 40 dbar, then drops quickly: this is the **oxycline**. Chlorophyll peaks around 45 dbar, in the upper thermocline: this is the **chlorophyll maximum**, where phytoplankton find both enough light from above and nutrients from below (Cullen, 2015).
 ::::
 
 ::::{card} 🌀 Turbulence is not uniform
-$\varepsilon$ is about $10^{-7}$ W kg⁻¹ near the surface and about $10^{-9}$ W kg⁻¹ below 80–100 dbar: **two orders of magnitude** over 100 m. Turbulence is strong above the thermocline and weak below it.
+$\varepsilon$ is of order $10^{-7}$ W kg⁻¹ at the base of the mixed layer and of order $10^{-9}$ W kg⁻¹ around 80 dbar: **a decrease by a factor of about 100 over a few tens of metres**.
 ::::
 
 :::::
 
-Note also the grey dots in the $\varepsilon$ panel. Successive estimates, only a few metres apart, can differ by a factor of ten. Turbulence comes in **patches and bursts**: it is *intermittent*. This is one reason why ocean turbulence is difficult to observe, and why we will average many estimates later on.
+Note also the grey dots in the $\varepsilon$ panel. Successive estimates, only a few metres apart, can differ by a factor of ten. Turbulence comes **in patches and bursts: it is intermittent**. This is one reason why ocean turbulence is difficult to observe, and why we will average many estimates later on.
 
-These values are typical of the upper tropical ocean. Across the global ocean, measured values of $\varepsilon$ cover several orders of magnitude, from about $10^{-10}$ W kg⁻¹ or less in the quiet interior to much larger values near the surface and over rough topography (Waterhouse et al., 2014).
+These values are of the same order of magnitude as previous observations in the tropical Atlantic (Hummels et al., 2013) and in the global ocean (Waterhouse et al., 2014).
 
-::::{note} Your turn
-Using {numref}`fig-profile`, estimate:
+The coincidence of the turbulence peak with the oxygen and chlorophyll maxima is striking. Is it a chance, or does turbulence play a role in shaping these layers? Keep this question in mind: we come back to it in parts 3 and 5.
 
-1. the depth of the base of the mixed layer;
-2. the depth of the 20 °C isotherm;
-3. the depth of the chlorophyll maximum;
-4. the value of $\varepsilon$ at 30 dbar and at 120 dbar. By how much does it change?
+::::{note} Your turn: find the special depth
+Compare the four panels of {numref}`fig-profile` side by side, at the same depth.
 
-:::{dropdown} Answers
-1. About 13 dbar. 2. About 57 dbar. 3. About 47 dbar, between the mixed layer and the 20 °C isotherm.
-4. About $10^{-8}$ to $3\times10^{-8}$ W kg⁻¹ at 30 dbar, and about $1\times10^{-9}$ to $3\times10^{-9}$ W kg⁻¹ at 120 dbar: roughly a factor of 10 to 30.
+Is there a depth range where something particular happens in **all four** profiles at once?
+
+:::{dropdown} Answer
+Between about 40 and 45 dbar:
+
+- $\varepsilon$ shows a **subsurface peak**, around 43 dbar;
+- oxygen reaches its **maximum**, around 40 dbar;
+- chlorophyll reaches its **maximum**, around 45 dbar;
+- temperature drops fastest: this is where the **vertical temperature gradient** is strongest.
+
+Is this a coincidence, or does turbulence play a role in shaping these layers? Keep this question in mind: we come back to it in parts 3 and 5.
 :::
 ::::
-
-## The questions this profile raises
 
 This single profile leads to the four questions of the rest of the course:
 
@@ -71,6 +74,6 @@ Would we find the same profile a few degrees south of the equator?
 
 :::{tip} Take-home
 - The upper ocean is layered: a mixed layer, a thermocline, and a colder interior.
-- Turbulence, measured by $\varepsilon$, varies by orders of magnitude with depth: strong above the thermocline, weak below.
+- Turbulence, measured by $\varepsilon$, decreases by about two orders of magnitude over a few tens of metres below the mixed layer, with a subsurface peak close to the oxygen and chlorophyll maxima.
 - Turbulence is intermittent: single estimates are noisy, and averages are needed.
 :::
