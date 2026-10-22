@@ -2,7 +2,7 @@
 
 Before any theory, let's look at the data.
 
-On the night of 4 April 2026, at 0°N, 10°W, a vertical microstructure profiler (VMP) was dropped from R/V *Thalassa*. While falling freely through the water, it measured temperature, oxygen and chlorophyll, and tiny fluctuations of velocity from which we estimate $\varepsilon$, the **dissipation rate of turbulent kinetic energy**. For now, read $\varepsilon$ simply as *"how strong the turbulence is"*. We will see exactly what it means in part 2.
+On the night of 4 April 2026, at 0°N, 10°W, a vertical microstructure profiler (VMP) was dropped from R/V *Thalassa*. While falling freely through the water, it measured temperature, oxygen and chlorophyll-a, and tiny fluctuations of velocity from which we estimate $\varepsilon$, the **dissipation rate of turbulent kinetic energy**. For now, read $\varepsilon$ simply as *"how strong the turbulence is"*. We will see exactly what it means in part 2.
 
 :::{figure} figures/fig1_profile.png
 :label: fig-profile
@@ -55,7 +55,7 @@ This single profile leads to the four questions of the rest of the course:
 ::::{grid} 1 2 2 2
 
 :::{card} 2. What is turbulence?
-What does $\varepsilon$ measure physically, and why is turbulence weaker below the thermocline?
+What does $\varepsilon$ measure physically?
 :::
 
 :::{card} 3. Why does it matter?
@@ -63,7 +63,7 @@ Does this turbulence move heat, oxygen and nutrients across the thermocline?
 :::
 
 :::{card} 4. How do we measure it?
-How do we get a value of $\varepsilon$ from a profiler falling through the ocean?
+How can a profiler falling through the ocean measure $\varepsilon$?
 :::
 
 :::{card} 5. Is it the same elsewhere?
