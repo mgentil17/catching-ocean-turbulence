@@ -2,32 +2,54 @@
 
 *From a microstructure profile to a mixing flux.*
 
-This short course is an introduction to ocean turbulence, how we measure it, and what we learn from it. It was prepared for a workshop at the Universidad de Costa Rica, and is written to be reused by anyone curious about ocean mixing. We assume a background in physics, but no previous experience with turbulence.
+Below the calm surface of the ocean, water is constantly stirred by eddies a few centimetres to a few metres in size. We cannot see them, but they decide how much heat, oxygen and nutrients cross the thermocline, between the sunlit surface layer and the dark ocean interior.
+
+In this short course, we follow **one real turbulence profile**, measured in the equatorial Atlantic, from the first look at the data to the turbulent fluxes it implies.
 
 ## What you will take away
 
-By the end of the course, you should be able to:
+::::{grid} 1 2 2 4
 
-1. **Understand** what ocean turbulence is, and the few quantities used to describe it: the dissipation rate $\varepsilon$, the stratification $N^2$, the Richardson number $Ri$ and the turbulent diffusivity $K$.
-2. **Know how it is measured**: the main methods and platforms, the principle of a shear probe, and how a vertical microstructure profiler (VMP) is used at sea.
-3. **Process** a microstructure profile with the basic steps, from the raw shear signal to $\varepsilon$, with simple quality checks.
-4. **Quantify and interpret** vertical turbulent fluxes of heat and oxygen, using real data from the tropical Atlantic.
+:::{card} 🌀 Understand
+What ocean turbulence is, and the few quantities that describe it: $\varepsilon$, $N^2$, $Ri$, $K$.
+:::
 
-## How the course is organised
+:::{card} 📡 Measure
+How turbulence is measured with a microstructure profiler (VMP), and how to collect good data at sea.
+:::
 
-| Part | Content | Time |
+:::{card} 🧮 Process
+The basic steps to go from a raw shear signal to $\varepsilon$, with simple quality checks.
+:::
+
+:::{card} 🌍 Quantify
+Turbulent fluxes of heat and oxygen in the tropical Atlantic, computed from real data.
+:::
+
+::::
+
+## The questions we follow
+
+| | Question | Time |
 |---|---|---|
-| 1 | Why vertical turbulent mixing matters | 10 min |
-| 2 | Ocean turbulence: the essentials | 30 min |
-| 3 | Measuring ocean turbulence | 35 min |
-| 4 | Application: vertical turbulent fluxes in the tropical Atlantic | 1 h 40 |
+| 1 | **What does ocean turbulence look like?** A first look at a real profile. | 5 min |
+| 2 | **What is turbulence?** Eddies, energy cascade, stratification and shear. | 25 min |
+| 3 | **Why does it matter?** From turbulence to vertical fluxes of heat, oxygen and nutrients. | 15 min |
+| 4 | **How do we measure it?** Microstructure, the VMP at sea, and the processing chain. | 35 min |
+| 5 | **An application:** turbulent fluxes in the tropical Atlantic, with Jupyter notebooks. | 1 h 40 |
 
-Parts 1 to 3 are short reading pages. Part 4 is hands-on, with Jupyter notebooks that run in the browser.
+Parts 1 to 4 are short reading pages. Part 5 is hands-on: the notebooks run in your web browser, there is nothing to install.
+
+:::{important} Keep this question in mind
+Is ocean turbulence stronger **on the equator** or **a few degrees south of it**?
+
+Write down your guess. We will answer it with the data in part 5.
+:::
 
 ## Data
 
-The profiles used in part 4 were collected during the PIRATA FR-36 cruise, with a VMP, along 10°W from 0° to 10°S, and during a 72 h fixed station at 0°N, 10°W with one profile every 3 hours.
+All profiles come from the **PIRATA FR-36** cruise on board R/V *Thalassa* (March–April 2026), collected with a VMP 250 vertical microstructure profiler, along 10°W between 1.5°N and 10°S, and during a 72-hour fixed station at 0°N, 10°W. The data were processed following the ATOMIX recommendations for shear probes (Lueck et al., 2024).
 
 ## About
 
-Prepared by Mathieu Gentil (LEGOS / IRD, Toulouse). Comments and corrections are welcome through the GitHub repository.
+Prepared by Mathieu Gentil (LEGOS / IRD, Toulouse) for a workshop at the Universidad de Costa Rica. Comments and corrections are welcome through the [GitHub repository](https://github.com/mgentil17/catching-ocean-turbulence).
