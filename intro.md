@@ -1,5 +1,10 @@
 # Catching ocean turbulence
 
+:::{image} figures/logo.svg
+:width: 140px
+:align: center
+:::
+
 *From a microstructure profile to a mixing flux.*
 
 Below the calm surface of the ocean, water is constantly stirred by eddies a few centimetres to a few metres in size. We cannot see them, but they decide how much heat, oxygen and nutrients cross the thermocline, between the sunlit surface layer and the dark ocean interior.
