@@ -1,15 +1,26 @@
 # 1. What does ocean turbulence look like?
 
-Before any theory, let's look at the data.
+## Seen from space: swirls within swirls
 
-On the night of 4 April 2026, at 0°N, 10°W, a vertical microstructure profiler (VMP) was dropped from R/V *Thalassa*. While falling freely through the water, it measured temperature, oxygen and chlorophyll-a, and tiny fluctuations of velocity from which we estimate $\varepsilon$, the **dissipation rate of turbulent kinetic energy**. For now, read $\varepsilon$ simply as *"how strong the turbulence is"*. We will see exactly what it means in part 2.
+:::{figure} figures/STS41G-35-94.JPG
+:label: fig-swirls
+Spiral eddies made visible by sun glitter in the eastern Mediterranean, photographed by astronauts during Space Shuttle mission STS-41G on 7 October 1984 (NASA photo STS41G-35-94, cropped). Image courtesy of the Earth Science and Remote Sensing Unit, NASA Johnson Space Center.
+:::
+
+From space, the sea surface reveals a world of swirls. In {numref}`fig-swirls`, sunlight reflected by the sea (the *sun glitter*) shows thin bright streaks wound into spirals. The streaks are slicks of natural surface films, gathered and stretched by the currents. These spiral eddies are typically 10 to 25 km across, and the streaks inside them can be as narrow as about 1 km (Munk et al., 2000). Look closely: each spiral contains smaller swirls and filaments.
+
+But these are the *large* eddies of the ocean. The motions that finally mix the water are about **a million times smaller**: from a few centimetres down to a few millimetres. They are invisible from space. To see them, we have to go into the water.
+
+## Seen from inside: one night at the equator
+
+On the night of 4 April 2026, at 0°N, 10°W, a vertical microstructure profiler was dropped from R/V *Thalassa*. While falling freely through the water, it measured temperature, oxygen and chlorophyll, and tiny fluctuations of velocity from which we estimate $\varepsilon$, the **dissipation rate of turbulent kinetic energy**. For now, read $\varepsilon$ simply as *"how strong the turbulence is"*. We will see exactly what it means in part 2, and how it is measured in part 4.
 
 :::{figure} figures/fig1_profile.png
 :label: fig-profile
 A night profile at 0°N, 10°W (PIRATA FR-36, 4 April 2026, 00:01 UTC). From left to right: temperature, dissolved oxygen, chlorophyll, and dissipation rate $\varepsilon$ (grey dots: individual estimates; black line: median in 2-dbar bins). Square: base of the mixed layer (MLD, density criterion of de Boyer Montégut et al., 2004). Triangle: 20 °C isotherm, a common marker of the tropical thermocline.
 :::
 
-## Reading the profile
+### Reading the profile
 
 :::::{grid} 1 1 3 3
 
