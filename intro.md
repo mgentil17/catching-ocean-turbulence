@@ -48,7 +48,7 @@ Write down your guess. We will answer it with the data in part 5.
 
 ## Data
 
-All profiles come from the **PIRATA FR-36** cruise on board R/V *Thalassa* (March–April 2026), collected with a VMP 250 vertical microstructure profiler, along 10°W between 1.5°N and 10°S, and during a 72-hour fixed station at 0°N, 10°W. The data were processed following the ATOMIX recommendations for shear probes (Lueck et al., 2024).
+All profiles come from the **PIRATA FR-36** cruise on board R/V *Thalassa* (March–April 2026), collected with a VMP 250 vertical microstructure profiler, along 10°W between 1.5°N and 10°S. The data were processed following the ATOMIX recommendations for shear probes (Lueck et al., 2024).
 
 ## About
 
