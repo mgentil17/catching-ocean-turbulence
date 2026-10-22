@@ -2,7 +2,7 @@
 
 Before any theory, let's look at the data.
 
-On the night of 4 April 2026, at 0°N, 10°W, a vertical microstructure profiler was dropped from R/V *Thalassa*. While falling freely through the water, it measured temperature, oxygen and chlorophyll, and tiny fluctuations of velocity from which we estimate $\varepsilon$, the **dissipation rate of turbulent kinetic energy**. For now, read $\varepsilon$ simply as *"how strong the turbulence is"*. We will see exactly what it means in part 2.
+On the night of 4 April 2026, at 0°N, 10°W, a vertical microstructure profiler (VMP) was dropped from R/V *Thalassa*. While falling freely through the water, it measured temperature, oxygen and chlorophyll, and tiny fluctuations of velocity from which we estimate $\varepsilon$, the **dissipation rate of turbulent kinetic energy**. For now, read $\varepsilon$ simply as *"how strong the turbulence is"*. We will see exactly what it means in part 2.
 
 :::{figure} figures/fig1_profile.png
 :label: fig-profile
