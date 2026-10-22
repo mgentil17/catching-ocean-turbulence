@@ -8,4 +8,6 @@ Hummels, R., Dengler, M., & Bourlès, B. (2013). Seasonal and regional variabili
 
 Lueck, R., Fer, I., Bluteau, C., Dengler, M., Holtermann, P., Inoue, R., LeBoyer, A., Nicholson, S.-A., Schulz, K., & Stevens, C. (2024). Best practices recommendations for estimating dissipation rates from shear probes. *Frontiers in Marine Science*, 11, 1334327.
 
+Munk, W., Armi, L., Fischer, K., & Zachariasen, F. (2000). Spirals on the sea. *Proceedings of the Royal Society A*, 456, 1217–1280.
+
 Waterhouse, A. F., MacKinnon, J. A., Nash, J. D., Alford, M. H., Kunze, E., Simmons, H. L., et al. (2014). Global patterns of diapycnal mixing from measurements of the turbulent dissipation rate. *Journal of Physical Oceanography*, 44, 1854–1872.
