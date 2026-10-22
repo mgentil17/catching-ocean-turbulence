@@ -1,3 +1,8 @@
+:::{image} figures/logo.svg
+:width: 140px
+:align: center
+:::
+
 # Catching ocean turbulence
 
 *From a microstructure profile to a mixing flux.*
