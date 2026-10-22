@@ -74,6 +74,5 @@ Would we find the same profile a few degrees south of the equator?
 
 :::{tip} Take-home
 - The upper ocean is layered: a mixed layer, a thermocline, and a colder interior.
-- Turbulence, measured by $\varepsilon$, decreases by about two orders of magnitude over a few tens of metres below the mixed layer, with a subsurface peak close to the oxygen and chlorophyll maxima.
-- Turbulence is intermittent: single estimates are noisy, and averages are needed.
+- Ocean turbulence is **highly variable and intermittent**: it changes by orders of magnitude with depth and comes in patches.
 :::
