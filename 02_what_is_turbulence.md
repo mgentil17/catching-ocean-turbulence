@@ -18,7 +18,7 @@ $$
 Re = \frac{U L}{\nu}
 $$
 
-It compares **inertia** ($U$ a velocity, $L$ the scale over which it changes), which stretches the flow into smaller and smaller structures, with **viscosity** ($\nu \approx 10^{-6}$ m² s⁻¹ for seawater), which smooths them out. In a tube, the flow becomes turbulent above $Re>2000$. In the ocean, $Re$ reaches $10^6$ for a current changing by 0.1 m s⁻¹ over 10 m, and $10^{11}$ at the scale of a basin (Stewart, 2008). **The ocean is turbulent.**
+It compares **inertia** ($U$ a velocity, $L$ the scale over which it changes), which stretches the flow into smaller and smaller structures, with **viscosity** ($\nu \approx 10^{-6}$ m² s⁻¹ for seawater), which smooths them out. In a tube, the flow becomes turbulent above $Re$ of a few thousand. In the ocean, $Re$ reaches $10^6$ for a current changing by 0.1 m s⁻¹ over 10 m, and $10^{11}$ at the scale of a basin (Stewart, 2008). **The ocean is turbulent.**
 
 :::{dropdown} Where does $Re$ come from?
 In the equation of motion of a fluid (the Navier–Stokes equation), inertia appears in the advection term $(\mathbf{u}\cdot\nabla)\mathbf{u}$, of order $U^2/L$, and viscosity in the term $\nu\nabla^2\mathbf{u}$, of order $\nu U/L^2$. Their ratio is $UL/\nu = Re$. When $Re$ is large, viscosity is negligible at the scale $L$ of the flow.
@@ -34,32 +34,30 @@ $\bar{u}$ is the current, averaged over time or space; $u'$ are the eddies. The 
 
 ## 2.2 Where $\varepsilon$ comes from: the energy chain
 
-The turbulent kinetic energy has a source and sinks (Tennekes & Lumley, 1972; Osborn, 1980):
+The energy of the eddies follows a chain in three steps (Tennekes & Lumley, 1972):
 
-- **Production.** Where the current changes with depth (the **shear** $\partial \bar{u}/\partial z$), the mean flow gives part of its energy to the eddies. Winds, tides and currents are the original sources of this shear.
-- **Cascade.** Large eddies break into smaller eddies, which break into even smaller ones. As Richardson (1922) put it:
+1. **Production.** Where the current changes with depth (the **shear**), the current gives part of its energy to the eddies. Winds, tides and currents are the original sources of this shear.
+2. **Cascade.** Large eddies break into smaller eddies, which break into even smaller ones. As Richardson (1922, p. 66) put it:
 
-  > *Big whirls have little whirls that feed on their velocity,*\
-  > *and little whirls have lesser whirls and so on to viscosity.*
+   > *Big whirls have little whirls that feed on their velocity,*\
+   > *and little whirls have lesser whirls and so on to viscosity.*
 
-- **Dissipation.** As the eddies get smaller, the velocity changes over shorter distances. When they are only a few millimetres across, viscosity smooths out these velocity gradients and turns the energy into heat. The size of these last eddies is the **Kolmogorov scale** (Kolmogorov, 1941):
+3. **Dissipation.** When the eddies are only a few millimetres across, viscosity can finally act: it turns their energy into heat.
+
+**$\varepsilon$ is the rate of this last step**: the energy dissipated by viscosity, per kilogram of water and per second (W kg⁻¹). When turbulence is steady, what is dissipated at the end of the chain is what was produced at the start: **$\varepsilon$ tells us how much energy flows through turbulence**. In a stratified ocean, part of the energy is also used to lift dense water; we come back to this in part 3 (Osborn, 1980).
+
+The size of the eddies where dissipation happens is the **Kolmogorov scale** (Kolmogorov, 1941). It depends only on the viscosity and on $\varepsilon$:
 
 $$
 \eta = \left(\frac{\nu^3}{\varepsilon}\right)^{1/4}
 $$
 
-**$\varepsilon$ is the rate at which viscosity turns turbulent kinetic energy into heat**, in W kg⁻¹. In a stratified ocean, part of the energy produced is also used to lift dense water (the **buoyancy flux**). When turbulence is steady, and if we neglect the energy carried from one place to another, the budget balances:
+$\varepsilon$ says *how much* energy is dissipated, $\eta$ says *at what size*. The more energy, the smaller the last eddies ({numref}`fig-spectrum`). Because dissipation happens over millimetres, measuring $\varepsilon$ means measuring how the velocity changes over millimetres: this is what the vertical micostructure profiler does (part 4).
 
-$$
-\text{production} = \text{buoyancy flux} + \varepsilon
-$$
-
-So $\varepsilon$ is the end of a chain: it tells us **how much energy flows through turbulence** at a given depth. And because dissipation happens over millimetres, measuring $\varepsilon$ means measuring velocity gradients over millimetres: this is what the profiler does (part 4).
-
-:::{figure} figures/cascade_schematic.png
-:label: fig-cascade
-:width: 80%
-*To make.* The energy budget of turbulence: production by the shear of the current, cascade to smaller and smaller eddies, and dissipation $\varepsilon$ into heat at the Kolmogorov scale $\eta$. In a stratified ocean, part of the energy lifts dense water (buoyancy flux).
+:::{figure} figures/energy_spectrum.png
+:label: fig-spectrum
+:width: 85%
+The energy chain seen across scales, for the two values of $\varepsilon$ of our profile: energy is produced in the large eddies, passed on to smaller eddies (cascade, where the curve follows $k^{-5/3}$; Kolmogorov, 1941), and dissipated near the Kolmogorov scale $\eta$. Model spectrum (Pope, 2000), with the largest eddies set to about 1 m for illustration.
 :::
 
 :::{dropdown} Does energy always go to smaller scales?
@@ -84,7 +82,7 @@ $$
 \overline{w'T'} = -K\,\frac{\partial \bar{T}}{\partial z}
 $$
 
-where $K$ is the **eddy diffusivity** (Taylor, 1921). In the ocean interior, a tracer released at sea spread vertically with $K \approx 10^{-5}$ m² s⁻¹, about 100 times the molecular diffusivity of heat (Ledwell et al., 1993). The velocity is transported in the same way: the momentum flux $\overline{u'w'}$ is precisely what extracts energy from the shear in the production term of section 2.2.
+where $K$ is the **eddy diffusivity** (Taylor, 1921). In the ocean interior, a tracer released at sea spread vertically with $K \approx 10^{-5}$ m² s⁻¹, about 100 times the molecular diffusivity of heat (Ledwell et al., 1993).
 
 Unlike molecular diffusivity, which is a property of seawater, $K$ is a property of the flow: the more energy flows through turbulence, the stronger the mixing. **This is why we measure $\varepsilon$**: in part 3, we use it to compute $K$, and then the fluxes of heat and oxygen.
 
