@@ -12,7 +12,7 @@ From space, the ocean surface is full of swirls. {numref}`fig-swirls` shows spir
 
 But these are the *large* eddies of the ocean. The motions that finally mix the water are about **a million times smaller**: from a few centimetres down to a few millimetres. They are invisible from space. To see them, we have to go into the water.
 
-## Seen from inside: one night at the equator
+## Seen from inside the ocean: one night at the equator
 
 On the night of 4 April 2026, at 0°N, 10°W, a vertical microstructure profiler was dropped from R/V *Thalassa*. While falling freely through the water, it measured temperature, oxygen and chlorophyll, and tiny fluctuations of velocity from which we estimate $\varepsilon$, the **dissipation rate of turbulent kinetic energy**. For now, read $\varepsilon$ simply as *"how strong the turbulence is"*. We will see exactly what it means in part 2, and how it is measured in part 4.
 
