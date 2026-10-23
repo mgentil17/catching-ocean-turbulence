@@ -4,12 +4,12 @@ In part 1, $\varepsilon$ decreased by a factor of about 100 over a few tens of m
 
 ## 2.1 From laminar to turbulent flow
 
-n 1883, Reynolds ran a simple experiment. Water flowed through a long glass tube, and he injected a thin filament of coloured dye at its entrance. At low speed, the filament stayed straight along the whole tube: the flow was **laminar**. When he increased the speed, the filament suddenly broke into eddies and the colour spread across the whole tube: the flow had become **turbulent** ({numref}`fig-reynolds`).
+In 1883, Reynolds ran a simple experiment. Water flowed through a long glass tube, and he injected a thin filament of coloured dye at its entrance. At low speed, the filament stayed straight along the whole tube: the flow was **laminar** ({numref}`fig-reynolds`, top). When he increased the speed, the filament suddenly mixed with the surrounding water and filled the tube with colour: the flow had become **turbulent** (middle). When he lit the tube with an electric spark, the coloured cloud resolved into distinct curls: **eddies** (bottom).
 
 :::{figure} figures/reynolds1883.png
 :label: fig-reynolds
 :width: 70%
-Reynolds' sketches of the dye filament in his glass tube: straight at low speed (top), broken into eddies at higher speed (bottom). From Reynolds (1883), *Philosophical Transactions of the Royal Society of London*, 174, 935–982 (public domain).
+Reynolds' sketches of the dye filament in his glass tube. Top: laminar flow, the filament stays straight. Middle: turbulent flow, the dye fills the tube. Bottom: the same turbulent flow seen by the light of an electric spark, which reveals the eddies. From Reynolds (1883), Figs. 3–5, *Philosophical Transactions of the Royal Society of London*, 174, 935–982 (public domain).
 :::
 
 Reynolds showed that the change does not depend on the speed alone, but on a dimensionless number, now called the **Reynolds number**:
