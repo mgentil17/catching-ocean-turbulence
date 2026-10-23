@@ -42,7 +42,7 @@ The energy of the eddies follows a chain in three steps (Tennekes & Lumley, 1972
    > *Big whirls have little whirls that feed on their velocity,*\
    > *and little whirls have lesser whirls and so on to viscosity.*
 
-3. **Dissipation.** When the eddies are only a few millimetres across, viscosity can finally act: it turns their energy into heat.
+3. **Dissipation.** When the eddies are only millimetres to centimetres across, viscosity can finally act: it turns their energy into heat.
 
 **$\varepsilon$ is the rate of this last step**: the energy dissipated by viscosity, per kilogram of water and per second (W kg⁻¹). When turbulence is steady, what is dissipated at the end of the chain is what was produced at the start: **$\varepsilon$ tells us how much energy flows through turbulence**. In a stratified ocean, part of the energy is also used to lift dense water; we come back to this in part 3 (Osborn, 1980).
 
@@ -52,12 +52,12 @@ $$
 \eta = \left(\frac{\nu^3}{\varepsilon}\right)^{1/4}
 $$
 
-$\varepsilon$ says *how much* energy is dissipated, $\eta$ says *at what size*. The more energy, the smaller the last eddies ({numref}`fig-spectrum`). Because dissipation happens over millimetres, measuring $\varepsilon$ means measuring how the velocity changes over millimetres: this is what the vertical micostructure profiler does (part 4).
+Between production and dissipation, Kolmogorov (1941) showed that energy is passed on without loss, and that its distribution across scales follows a simple law: the energy spectrum decreases as $k^{-5/3}$, where $k$ is the wavenumber (the inverse of the scale) ({numref}`fig-spectrum`). $\varepsilon$ says *how much* energy is dissipated, $\eta$ says *at what size*. The more energy, the smaller the last eddies. Because dissipation happens over millimetres, measuring $\varepsilon$ means measuring how the velocity changes over millimetres: this is what the vertical microstructure profiler does (part 4).
 
 :::{figure} figures/energy_spectrum.png
 :label: fig-spectrum
 :width: 85%
-The energy chain seen across scales, for the two values of $\varepsilon$ of our profile: energy is produced in the large eddies, passed on to smaller eddies (cascade, where the curve follows $k^{-5/3}$; Kolmogorov, 1941), and dissipated near the Kolmogorov scale $\eta$. Model spectrum (Pope, 2000), with the largest eddies set to about 1 m for illustration.
+The energy chain of turbulence, seen across eddy sizes: our schematic of the classic energy spectrum of turbulence (e.g., Tennekes & Lumley, 1972). The wavenumber $k$ is the inverse of the eddy size: large eddies on the left, small eddies on the right. The energy spectrum $E(k)$ shows how much energy the eddies of each size hold. Energy enters at the largest eddies (size $l$), is passed on to smaller eddies along a slope in $k^{-5/3}$ (inertial range), and is turned into heat near the Kolmogorov scale $\eta$, at the rate $\varepsilon$.
 :::
 
 :::{dropdown} Does energy always go to smaller scales?
