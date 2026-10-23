@@ -8,7 +8,7 @@ In 1883, Reynolds ran a simple experiment. Water flowed through a long glass tub
 
 :::{figure} figures/reynolds1883.png
 :label: fig-reynolds
-:width: 70%
+:width: 90%
 Reynolds' sketches of the dye filament in his glass tube. Top: laminar flow, the filament stays straight. Middle: turbulent flow, the dye fills the tube. Bottom: the same turbulent flow seen by the light of an electric spark, which reveals the eddies. From Reynolds (1883), Figs. 3–5, *Philosophical Transactions of the Royal Society of London*, 174, 935–982 (public domain).
 :::
 
