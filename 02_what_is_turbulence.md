@@ -18,7 +18,7 @@ $$
 Re = \frac{U L}{\nu}
 $$
 
-It compares **inertia** ($U$ a velocity, $L$ the scale over which it changes), which stretches the flow into smaller and smaller structures, with **viscosity** ($\nu \approx 10^{-6}$ m² s⁻¹ for seawater), which smooths them out. In a tube, the flow becomes turbulent above $Re$ of a few thousand. In the ocean, $Re$ reaches $10^6$ for a current changing by 0.1 m s⁻¹ over 10 m, and $10^{11}$ at the scale of a basin (Stewart, 2008). **The ocean is turbulent.**
+It compares **inertia** ($U$ a velocity, $L$ the scale over which it changes), which stretches the flow into smaller and smaller structures, with **viscosity** ($\nu \approx 10^{-6}$ m² s⁻¹ for seawater), which smooths them out. In a tube, the flow becomes turbulent above $Re>2000$. In the ocean, $Re$ reaches $10^6$ for a current changing by 0.1 m s⁻¹ over 10 m, and $10^{11}$ at the scale of a basin (Stewart, 2008). **The ocean is turbulent.**
 
 :::{dropdown} Where does $Re$ come from?
 In the equation of motion of a fluid (the Navier–Stokes equation), inertia appears in the advection term $(\mathbf{u}\cdot\nabla)\mathbf{u}$, of order $U^2/L$, and viscosity in the term $\nu\nabla^2\mathbf{u}$, of order $\nu U/L^2$. Their ratio is $UL/\nu = Re$. When $Re$ is large, viscosity is negligible at the scale $L$ of the flow.
