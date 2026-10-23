@@ -1,10 +1,10 @@
 # 2. What is turbulence?
 
-In part 1, $\varepsilon$ decreased by a factor of about 100 over a few tens of metres. To understand why, we need to know what makes the ocean turbulent, what $\varepsilon$ measures, and what can make turbulence strong in one layer and weak in another.
+In part 1, we saw what ocean turbulence looks like: swirls within swirls, and a dissipation rate $\varepsilon$ that changes by a factor of 100 with depth. We read $\varepsilon$ as *"how strong the turbulence is"*. Here, we look at what turbulence is, and follow $\varepsilon$: what it is, where it comes from, and what it does to the water.
 
-## 2.1 From laminar to turbulent flow
+## 2.1 A turbulent flow: where $\varepsilon$ lives
 
-In 1883, Reynolds ran a simple experiment. Water flowed through a long glass tube, and he injected a thin filament of coloured dye at its entrance. At low speed, the filament stayed straight along the whole tube: the flow was **laminar** ({numref}`fig-reynolds`, top). When he increased the speed, the filament suddenly mixed with the surrounding water and filled the tube with colour: the flow had become **turbulent** (middle). When he lit the tube with an electric spark, the coloured cloud resolved into distinct curls: **eddies** (bottom).
+In 1883, Reynolds injected a thin filament of dye into water flowing through a glass tube. At low speed, the filament stayed straight: the flow was **laminar** ({numref}`fig-reynolds`, top). At higher speed, it suddenly mixed with the water and filled the tube: the flow had become **turbulent** (middle). Lit by an electric spark, the coloured cloud resolved into distinct curls: **eddies** (bottom).
 
 :::{figure} figures/reynolds1883.png
 :label: fig-reynolds
@@ -12,77 +12,65 @@ In 1883, Reynolds ran a simple experiment. Water flowed through a long glass tub
 Reynolds' sketches of the dye filament in his glass tube. Top: laminar flow, the filament stays straight. Middle: turbulent flow, the dye fills the tube. Bottom: the same turbulent flow seen by the light of an electric spark, which reveals the eddies. From Reynolds (1883), Figs. 3–5, *Philosophical Transactions of the Royal Society of London*, 174, 935–982 (public domain).
 :::
 
-Reynolds showed that the change does not depend on the speed alone, but on a dimensionless number, now called the **Reynolds number**:
+Reynolds showed that the change depends on one number, the **Reynolds number**:
 
 $$
 Re = \frac{U L}{\nu}
 $$
 
-where $U$ is a typical velocity, $L$ a typical length of the flow, and $\nu \approx 10^{-6}$ m² s⁻¹ the kinematic viscosity of seawater. $L$ is the scale over which the velocity changes: in Reynolds' tube, it is the diameter of the tube; in the ocean, it can be the thickness of a layer where the current changes with depth.
-
-$Re$ compares **inertia**, which stretches the flow into smaller and smaller structures, with **viscosity**, which smooths them out. In a tube, the flow stays laminar below $Re \approx 2300$ and becomes turbulent above a few thousand.
+It compares **inertia** ($U$ a velocity, $L$ the scale over which it changes), which stretches the flow into smaller and smaller structures, with **viscosity** ($\nu \approx 10^{-6}$ m² s⁻¹ for seawater), which smooths them out. In a tube, the flow becomes turbulent above $Re$ of a few thousand. In the ocean, $Re$ reaches $10^6$ for a current changing by 0.1 m s⁻¹ over 10 m, and $10^{11}$ at the scale of a basin (Stewart, 2008). **The ocean is turbulent.**
 
 :::{dropdown} Where does $Re$ come from?
-In the equation of motion of a fluid (the Navier–Stokes equation), inertia appears in the advection term $(\mathbf{u}\cdot\nabla)\mathbf{u}$, of order $U^2/L$, and viscosity in the term $\nu\nabla^2\mathbf{u}$, of order $\nu U/L^2$. Their ratio is
-$$
-\frac{U^2/L}{\nu U/L^2} = \frac{UL}{\nu} = Re .
-$$
-When $Re$ is large, viscosity is negligible at the scale $L$ of the flow.
+In the equation of motion of a fluid (the Navier–Stokes equation), inertia appears in the advection term $(\mathbf{u}\cdot\nabla)\mathbf{u}$, of order $U^2/L$, and viscosity in the term $\nu\nabla^2\mathbf{u}$, of order $\nu U/L^2$. Their ratio is $UL/\nu = Re$. When $Re$ is large, viscosity is negligible at the scale $L$ of the flow.
 :::
 
-::::{note} Your turn
-Take a current whose speed changes by 0.1 m s⁻¹ over 10 m of depth, a modest value for the upper ocean. What is $Re$? Compare it with the value in Reynolds' tube.
+A turbulent flow is irregular: its eddies cannot be predicted one by one. Reynolds (1895) proposed to describe it in two parts, a **mean flow** and **fluctuations** around it:
 
-:::{dropdown} Answer
-$Re = (0.1 \times 10)/10^{-6} = 10^{6}$, several hundred times larger than the transition in a tube. With the scale of an ocean basin ($U = 0.1$ m s⁻¹, $L = 1000$ km), $Re$ reaches $10^{11}$ (Stewart, 2008). Whatever the scale, $Re$ is huge.
-:::
-::::
+$$
+u = \bar{u} + u'
+$$
 
-In the ocean, $Re$ is far above the threshold of a tube: at the scale of currents, viscosity is much too weak to keep the flow laminar. **The ocean is turbulent.**
+$\bar{u}$ is the current, averaged over time or space; $u'$ are the eddies. The energy of the eddies is the **turbulent kinetic energy**, $\frac{1}{2}\left(\overline{u'^2} + \overline{v'^2} + \overline{w'^2}\right)$, per kilogram of water. $\varepsilon$ is about this energy.
 
-Yet turbulence cannot grow without limit. Winds, tides and currents supply it with energy all the time: this energy must be removed somewhere, or turbulence would keep increasing. The only process that turns the energy of motion into heat is viscosity. But we have just seen that viscosity is negligible at the scale of ocean currents. So where can viscosity act? As we will see, it is a question of scale.
+## 2.2 Where $\varepsilon$ comes from: the energy chain
 
+The turbulent kinetic energy has a source and sinks (Tennekes & Lumley, 1972; Osborn, 1980):
 
-### 2.2 The energy cascade: what $\varepsilon$ really is
+- **Production.** Where the current changes with depth (the **shear** $\partial \bar{u}/\partial z$), the mean flow gives part of its energy to the eddies. Winds, tides and currents are the original sources of this shear.
+- **Cascade.** Large eddies break into smaller eddies, which break into even smaller ones. As Richardson (1922) put it:
 
-Winds, tides and currents put energy into the ocean at large scales. Large eddies are stretched and broken by the flow into smaller eddies, which break into even smaller ones: energy is passed from large to small scales. This is the **energy cascade**, summarised by Richardson (1922):
+  > *Big whirls have little whirls that feed on their velocity,*\
+  > *and little whirls have lesser whirls and so on to viscosity.*
 
-> *Big whorls have little whorls, which feed on their velocity,*\
-> *And little whorls have lesser whorls, and so on to viscosity.*
-
-As the eddies get smaller, the velocity changes over shorter and shorter distances: the **velocity gradients** become stronger. When the eddies are only a few millimetres across, viscosity smooths these gradients out, and the kinetic energy of the eddies is turned into heat. The size of these smallest eddies is the **Kolmogorov scale** (Kolmogorov, 1941):
+- **Dissipation.** As the eddies get smaller, the velocity changes over shorter distances. When they are only a few millimetres across, viscosity smooths out these velocity gradients and turns the energy into heat. The size of these last eddies is the **Kolmogorov scale** (Kolmogorov, 1941):
 
 $$
 \eta = \left(\frac{\nu^3}{\varepsilon}\right)^{1/4}
 $$
 
-This answers the question of section 2.1: viscosity acts at the end of the cascade, at the millimetre scale.
+**$\varepsilon$ is the rate at which viscosity turns turbulent kinetic energy into heat**, in W kg⁻¹. In a stratified ocean, part of the energy produced is also used to lift dense water (the **buoyancy flux**). When turbulence is steady, and if we neglect the energy carried from one place to another, the budget balances:
 
-We can now define $\varepsilon$. **$\varepsilon$ is the rate at which viscosity turns the kinetic energy of the eddies into heat**, per unit mass (W kg⁻¹). When turbulence is steady, it is equal to the rate at which energy is supplied at the top of the cascade. Because this happens where the velocity gradients are strongest, $\varepsilon$ is computed from the velocity gradients at the millimetre scale: this is what a microstructure profiler measures (part 4).
+$$
+\text{production} = \text{buoyancy flux} + \varepsilon
+$$
+
+So $\varepsilon$ is the end of a chain: it tells us **how much energy flows through turbulence** at a given depth. And because dissipation happens over millimetres, measuring $\varepsilon$ means measuring velocity gradients over millimetres: this is what the profiler does (part 4).
 
 :::{figure} figures/cascade_schematic.png
 :label: fig-cascade
 :width: 80%
-*To make.* The energy cascade: energy enters at large scales, is passed to smaller and smaller eddies, and is turned into heat by viscosity at the Kolmogorov scale $\eta$.
+*To make.* The energy budget of turbulence: production by the shear of the current, cascade to smaller and smaller eddies, and dissipation $\varepsilon$ into heat at the Kolmogorov scale $\eta$. In a stratified ocean, part of the energy lifts dense water (buoyancy flux).
 :::
 
 :::{dropdown} Does energy always go to smaller scales?
 No. In the ocean, large eddies (tens to hundreds of kilometres) are nearly two-dimensional because of the Earth's rotation and the stratification, and part of their energy moves to *larger* scales: this is the inverse cascade (Kraichnan, 1967; Scott & Wang, 2005). In this course, we follow the energy that goes down to small scales.
 :::
 
-::::{note} Your turn
-Compute $\eta$ at the base of the mixed layer ($\varepsilon \approx 10^{-7}$ W kg⁻¹) and around 80 dbar ($\varepsilon \approx 10^{-9}$ W kg⁻¹), with $\nu = 10^{-6}$ m² s⁻¹.
+## 2.3 What $\varepsilon$ tells us: stirring and mixing
 
-:::{dropdown} Answer
-$\eta = (10^{-18}/10^{-7})^{1/4} \approx 2$ mm at the base of the mixed layer, and $\eta = (10^{-18}/10^{-9})^{1/4} \approx 6$ mm at 80 dbar. The last eddies are a few millimetres across: this is why we talk about **micro**structure.
-:::
-::::
+The eddies carry everything that is in the water: momentum, but also heat, salt, oxygen or nutrients, called **tracers**.
 
-## 2.3 From stirring to mixing
-
-The same eddies do not only act on the velocity: they also carry everything that is in the water, such as heat, salt, oxygen or nutrients. These quantities are called **tracers**.
-
-Eddies stretch and fold a patch of tracer into thinner and thinner filaments. This is **stirring**: the gradients become stronger, but the water is not mixed yet. When the filaments are thin enough, **molecular diffusion** smooths them out, and the water becomes uniform. This is **mixing** (Eckart, 1948; Osborn, 1998). **Turbulent mixing** is the two in series: stirring makes the filaments thin, molecular diffusion erases them, and the overall rate is set by the stirring (Müller & Garrett, 2002).
+Eddies stretch and fold a patch of tracer into thinner and thinner filaments. This is **stirring**: the gradients become stronger, but the water is not mixed yet. When the filaments are thin enough, **molecular diffusion** smooths them out. This is **mixing** (Eckart, 1948; Osborn, 1998). **Turbulent mixing** is the two in series, and its rate is set by the stirring (Müller & Garrett, 2002).
 
 :::{figure} figures/stirring_mixing.png
 :label: fig-stirring
@@ -90,62 +78,56 @@ Eddies stretch and fold a patch of tracer into thinner and thinner filaments. Th
 *To make.* A patch of dye in a fluid at rest, smoothed by molecular diffusion only (top), and in a turbulent flow, stirred and then mixed (bottom).
 :::
 
+The net result is a **turbulent flux**. For heat, it is $\overline{w'T'}$: on average, warm water moves down while cold water moves up. Seen from far away, this flux acts like a diffusion down the mean gradient, but much stronger than molecular diffusion:
+
+$$
+\overline{w'T'} = -K\,\frac{\partial \bar{T}}{\partial z}
+$$
+
+where $K$ is the **eddy diffusivity** (Taylor, 1921). In the ocean interior, a tracer released at sea spread vertically with $K \approx 10^{-5}$ m² s⁻¹, about 100 times the molecular diffusivity of heat (Ledwell et al., 1993). The velocity is transported in the same way: the momentum flux $\overline{u'w'}$ is precisely what extracts energy from the shear in the production term of section 2.2.
+
+Unlike molecular diffusivity, which is a property of seawater, $K$ is a property of the flow: the more energy flows through turbulence, the stronger the mixing. **This is why we measure $\varepsilon$**: in part 3, we use it to compute $K$, and then the fluxes of heat and oxygen.
+
 ::::{note} Your turn
-Molecular diffusion of heat ($\kappa_T \approx 1.4 \times 10^{-7}$ m² s⁻¹) smooths a temperature difference over a distance $L$ in a time of order $t \approx L^2/\kappa_T$. Compute $t$ for $L = 1$ m and for $L = 1$ mm.
+Molecular diffusion of heat ($\kappa_T \approx 1.4 \times 10^{-7}$ m² s⁻¹) smooths a temperature difference over a distance $L$ in a time $t \approx L^2/\kappa_T$. Compute $t$ for $L = 1$ m and for $L = 1$ mm.
 
 :::{dropdown} Answer
-For $L = 1$ m: $t \approx 1/(1.4 \times 10^{-7}) \approx 7 \times 10^{6}$ s, about **80 days**. For $L = 1$ mm: $t \approx 10^{-6}/(1.4 \times 10^{-7}) \approx$ **7 seconds**. Diffusion alone is far too slow at the scale of the thermocline, but very fast on millimetre filaments. Stirring is what brings the tracer down to these scales.
+About **80 days** for 1 m, and about **7 seconds** for 1 mm. Diffusion alone is far too slow at the scale of the thermocline; stirring is what brings the tracer down to millimetre scales, where diffusion is fast.
 :::
 ::::
 
-% Slides only: Smyth & Moum, "3D Turbulence", Encyclopedia of Ocean Sciences (copyrighted, show with source).
-% Note for 2.4: in a stratified ocean, temperature and salt set the density, so they are not fully passive.
+% In class: a glass of water with a drop of dye, left at rest, then stirred with a spoon.
 
-## 2.4 Stratification fights back
+## 2.4 Reading $\varepsilon$ on our profile
 
-So far, we have described turbulence as if the water had the same density everywhere. The upper ocean is not like that: it is **stratified**, with light, warm water above dense, cold water, as in the thermocline of part 1. To mix a stratified ocean, eddies must lift dense water up and push light water down. This costs energy: part of the energy of turbulence is used to lift dense water, and the rest is dissipated at the rate $\varepsilon$ (Osborn, 1980). We come back to this in part 3.
+:::::{grid} 1 1 3 3
 
-The strength of the stratification is measured by the **buoyancy frequency** $N$:
+::::{card} ⚡ Energy flowing through turbulence
+At the base of the mixed layer, each kilogram of water dissipates about $10^{-7}$ W. Around 80 dbar, about $10^{-9}$ W: **100 times less energy** flows through turbulence there.
+::::
 
-$$
-N^2 = -\frac{g}{\rho_0}\frac{\partial \rho}{\partial z}
-$$
+::::{card} 🔬 The last eddies
+With $\varepsilon = 10^{-7}$ W kg⁻¹, the last eddies are about **2 mm** across; with $10^{-9}$ W kg⁻¹, about **6 mm**. This is why we talk about **micro**structure.
+::::
 
-where $g$ is gravity, $\rho$ the density and $\rho_0$ a reference density. A parcel of water moved up or down oscillates around its position at the frequency $N$. The larger $N^2$, the harder it is to mix.
+::::{card} 🌀 Where the gradients are
+The peak of $\varepsilon$ around 40–45 dbar lies in the layer where temperature changes fastest, and where oxygen and chlorophyll reach their maximum: turbulence is strong where there are strong gradients to mix.
+::::
 
-The energy that can overcome the stratification comes from the **shear** $S$: the change of the current with depth, $S^2 = (\partial u/\partial z)^2 + (\partial v/\partial z)^2$. Which one wins is measured by the **Richardson number**:
+:::::
 
-$$
-Ri = \frac{N^2}{S^2}
-$$
+::::{note} Your turn
+Check the values of the second card with $\eta = (\nu^3/\varepsilon)^{1/4}$ and $\nu = 10^{-6}$ m² s⁻¹. What would $\eta$ be in a very energetic layer with $\varepsilon = 10^{-5}$ W kg⁻¹?
 
-Miles (1961) and Howard (1961) showed that a steady, stratified shear flow can become unstable only if $Ri < 1/4$ somewhere. This is a **necessary** condition: $Ri < 1/4$ makes instability possible, not certain. When it happens, the interface between the layers starts to wave, the waves roll up into **Kelvin–Helmholtz billows**, and the billows break into turbulence and mix the two layers ({numref}`fig-kh`).
-
-[Figure: our 2D Kelvin–Helmholtz simulation — the real breakdown into turbulence is 3D]
-
-Shear instability is one of the main sources of turbulence in the ocean interior (Smyth & Moum, 2012). Where it acts, the strength of turbulence depends on the balance between shear and stratification, not on either one alone. This is how turbulence can be strong in one layer and weak in another.
-
-Your turn: in the thermocline of part 1, T drops by ~10 °C over 50 m. Ignoring salinity (Δρ ≈ ρ0 α ΔT, α ≈ 3×10⁻⁴ K⁻¹), compute N². What shear S is needed to get Ri < 1/4?
-Answer: Δρ ≈ 3 kg m⁻³, N² ≈ 6×10⁻⁴ s⁻², N ≈ 0.024 s⁻¹ (period ~4 min). Ri < 1/4 requires S > 2N ≈ 0.05 s⁻¹, e.g. 0.5 m s⁻¹ over 10 m. To know whether this happens on our profile, we need the current measurements (section 2.5).
-
-## 2.4 Back to our profile
-
-:::{admonition} 🚧 To write
-:class: dropdown
-**Message.** Just below the mixed layer at the equator, the shear of the Equatorial Undercurrent keeps $Ri$ close to 1/4: turbulence is strong. Deeper, stratification wins and $\varepsilon$ drops. This is the answer to the question of part 1.
-
-**Content.**
-- The Equatorial Undercurrent: an eastward current below the westward surface flow, in the upper thermocline.
-- "Marginal instability": $Ri$ stays close to 1/4 over long periods (Smyth & Moum, 2013, Pacific).
-- Comparison with observations in the Atlantic (Hummels et al., 2013).
-- Transition to part 3: if turbulence mixes, what does it carry?
-
-**Figure.** Our profile again, with $N^2$ (and later $S^2$ and $Ri$ from the ADCP). *Current data: to come.*
+:::{dropdown} Answer
+About 1.8 mm and 5.6 mm. With $\varepsilon = 10^{-5}$ W kg⁻¹, $\eta \approx 0.6$ mm: the more energy, the smaller the last eddies, and the finer the profiler must resolve.
 :::
+::::
+
+Two questions remain open. Why does so much energy flow through turbulence at 40–45 dbar, in a strongly stratified layer? And how much heat and oxygen does this turbulence actually move? This is part 3.
 
 :::{tip} Take-home
-- At high Reynolds number, the flow becomes irregular and full of eddies: **the ocean is turbulent**.
-- Energy cascades to millimetre-scale eddies, where viscosity turns it into heat at the rate **ε**.
-- The same eddies **stir** heat, salt and oxygen into thin filaments, and molecular diffusion **mixes** them.
-- **Stratification resists mixing**: shear can overcome it only where Ri < 1/4, so turbulence is strong in some layers and weak in others.
+- **A turbulent flow** is a mean flow plus irregular eddies. In the ocean, $Re$ is huge: the ocean is turbulent.
+- **$\varepsilon$ is the end of the energy chain**: the shear of the current feeds the eddies, the cascade carries the energy down to millimetre-scale eddies, and viscosity dissipates it at the rate $\varepsilon$.
+- **Turbulence stirs, molecular diffusion mixes**: the result is a turbulent flux, much stronger than molecular diffusion, whose strength depends on $\varepsilon$.
 :::
