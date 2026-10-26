@@ -33,7 +33,7 @@ Phytoplankton need light from above and nutrients from below (Cullen, 2015). In 
 The equatorial Atlantic in April (left) and July (right), in the upper 150 m, from west (W) to east (E). Dashed line: core of the Equatorial Undercurrent; turbulence is strong above it. In April, the nitracline is below this core and chlorophyll stays deep; in July, the nitracline is above it, mixing brings nitrate up, and chlorophyll reaches the surface. From Brandt et al. (2025), *Seasonal productivity of the equatorial Atlantic shaped by distinct wind-driven processes*, Nature Geoscience, 18, 84–90, Fig. 6 (CC BY 4.0).
 :::
 
-Our profile was taken in April: its deep chlorophyll maximum, around 45 dbar, is the April case.
+Our profile ({numref}`fig-profile`)c was taken in April: its deep chlorophyll maximum, around 45 dbar, is the April case.
 
 ## 3.3 Oxygen: ventilating the oxygen minimum zone
 
