@@ -30,7 +30,7 @@ $$
 u = \bar{u} + u'
 $$
 
-$\bar{u}$ is the current, averaged over time or space; $u'$ are the eddies. The energy of the eddies is the **turbulent kinetic energy**, $\frac{1}{2}\left(\overline{u'^2} + \overline{v'^2} + \overline{w'^2}\right)$, per kilogram of water. $\varepsilon$ is about this energy.
+$\bar{u}$ is the current, averaged over time or space; $u'$ are the eddies. The energy of the eddies is the **turbulent kinetic energy**, $\frac{1}{2}\left(\overline{u'^2} + \overline{v'^2} + \overline{w'^2}\right)$, per kilogram of water. $\varepsilon$ is the rate at which this energy is lost.
 
 ## 2.2 Where $\varepsilon$ comes from: the energy chain
 
@@ -52,7 +52,7 @@ $$
 \eta = \left(\frac{\nu^3}{\varepsilon}\right)^{1/4}
 $$
 
-Between production and dissipation, Kolmogorov (1941) showed that energy is passed on without loss, and that its distribution across scales follows a simple law: the energy spectrum decreases as $k^{-5/3}$, where $k$ is the wavenumber (the inverse of the scale) ({numref}`fig-spectrum`). $\varepsilon$ says *how much* energy is dissipated, $\eta$ says *at what size*. The more energy, the smaller the last eddies. Because dissipation happens over millimetres, measuring $\varepsilon$ means measuring how the velocity changes over millimetres: this is what the vertical microstructure profiler does (part 4).
+Between production and dissipation, Kolmogorov (1941) showed that energy is passed on without loss, and that its distribution across scales follows a simple law: the energy spectrum decreases as $k^{-5/3}$, where $k$ is the wavenumber (the inverse of the scale) ({numref}`fig-spectrum`). **$\varepsilon$ says *how much* energy is dissipated, $\eta$ says *at what size***. The more energy, the smaller the last eddies. Because dissipation happens over centimeters, measuring $\varepsilon$ means measuring how the velocity changes over this scale: this is what the vertical microstructure profiler does (part 4).
 
 :::{figure} figures/energy_spectrum.png
 :label: fig-spectrum
@@ -73,18 +73,8 @@ Eddies stretch and fold a patch of tracer into thinner and thinner filaments. Th
 :::{figure} figures/stirring_mixing.png
 :label: fig-stirring
 :width: 80%
-*To make.* A patch of dye in a fluid at rest, smoothed by molecular diffusion only (top), and in a turbulent flow, stirred and then mixed (bottom).
+The same warm layer between cold water, as in a thermocline, at three times ($t = 0$, then $t_1$, then $t_2 > t_1$). Top: with molecular diffusion only, the boundaries between warm and cold water barely widen. Bottom: with the same diffusion, eddies stretch the warm water into thin filaments (stirring), which molecular diffusion then erases (mixing): the water becomes uniform much faster. Red: warm; blue: cold; yellow: mixed. Our two-dimensional simulation, following the idea of Eckart (1948).
 :::
-
-The net result is a **turbulent flux**. For heat, it is $\overline{w'T'}$: on average, warm water moves down while cold water moves up. Seen from far away, this flux acts like a diffusion down the mean gradient, but much stronger than molecular diffusion:
-
-$$
-\overline{w'T'} = -K\,\frac{\partial \bar{T}}{\partial z}
-$$
-
-where $K$ is the **eddy diffusivity** (Taylor, 1921). In the ocean interior, a tracer released at sea spread vertically with $K \approx 10^{-5}$ m² s⁻¹, about 100 times the molecular diffusivity of heat (Ledwell et al., 1993).
-
-Unlike molecular diffusivity, which is a property of seawater, $K$ is a property of the flow: the more energy flows through turbulence, the stronger the mixing. **This is why we measure $\varepsilon$**: in part 3, we use it to compute $K$, and then the fluxes of heat and oxygen.
 
 ::::{note} Your turn
 Molecular diffusion of heat ($\kappa_T \approx 1.4 \times 10^{-7}$ m² s⁻¹) smooths a temperature difference over a distance $L$ in a time $t \approx L^2/\kappa_T$. Compute $t$ for $L = 1$ m and for $L = 1$ mm.
@@ -93,6 +83,20 @@ Molecular diffusion of heat ($\kappa_T \approx 1.4 \times 10^{-7}$ m² s⁻¹) s
 About **80 days** for 1 m, and about **7 seconds** for 1 mm. Diffusion alone is far too slow at the scale of the thermocline; stirring is what brings the tracer down to millimetre scales, where diffusion is fast.
 :::
 ::::
+
+The result is a **turbulent heat flux**, written $\overline{w'T'}$ with the fluctuations of section 2.1: eddies carry warm water down and cold water up. Taylor (1921) showed that this flux acts like a diffusion, but much stronger than molecular diffusion:
+
+$$
+\overline{w'T'} = -K_\rho\,\frac{\partial \bar{T}}{\partial z}
+$$
+
+$K_\rho$ depends on the flow, and this is where $\varepsilon$ comes back. In a stratified ocean, mixing means lifting dense water, which costs energy. Osborn (1980) assumed that the energy used for mixing is about 0.2 times the energy dissipated, $\varepsilon$ (section 2.2). This gives:
+
+$$
+K_\rho = \Gamma\,\frac{\varepsilon}{N^2}
+$$
+
+with $\Gamma \approx 0.2$ (a common choice, though not universal; Gregg et al., 2018) and $N^2 = -(g/\rho_0)\,\partial\rho/\partial z$ the strength of the stratification. More energy means more mixing; stronger stratification means less. **This is why we measure $\varepsilon$**: with $N^2$, it gives $K_\rho$, and then the fluxes of heat and oxygen (part 3). We assume here that heat and oxygen are mixed like density, with the same $K_\rho$.
 
 % In class: a glass of water with a drop of dye, left at rest, then stirred with a spoon.
 
