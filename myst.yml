@@ -11,7 +11,7 @@ project:
     - file: intro.md
     - file: 01_turbulence_profile.md
     - file: 02_what_is_turbulence.md
-    - file: 03_why_does_it_matter.md
+    - file: 03_why_it_matter.md
     - file: 04_how_do_we_measure_it.md
     - file: 05_fluxes_tropical_atlantic.md
     - file: references.md
