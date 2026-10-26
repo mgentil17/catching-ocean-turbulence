@@ -4,21 +4,21 @@ numbering:
 ---
 # 3. Why does it matter?
 
-Part 2 showed that turbulence mixes heat, nutrients and oxygen across the thermocline. Why does it matter? We now look at what this mixing does at a larger scale, over a whole season and a whole region, for each of the three properties of our profile ({numref}`fig-profile`).
+Part 2 showed that turbulence mixes heat, nutrients and oxygen across the water column. Why does it matter? We now look at what this mixing does at a larger scale, over a whole season and a whole region, for each of the three properties of our profile ({numref}`fig-profile`).
 
-% Time: ~20 min. One idea and one figure per section. No calculation here: the fluxes are computed in part 5.
+% Time: ~20 min. One idea and one figure per section.
 
-## 3.1 Heat: cooling the surface
+## 3.1 Heat: cooling the sea surface temperature
 
-The clearest example comes from the equatorial Pacific, where a mooring measured turbulence for a whole year ({numref}`fig-moum`). The sun and the atmosphere heat the surface layer (red), while turbulence carries heat down below it (blue). From February to May, heating wins and the surface warms. From June to September, turbulent cooling wins and the surface cools (Moum et al., 2013). The same holds in the Atlantic cold tongue, where turbulent mixing is the main cooling term during the cold season (Hummels et al., 2013).
+The clearest example comes from the equatorial Pacific, where a mooring measured turbulence for a whole year ({numref}`fig-moum`). The sun and the atmosphere heat the surface layer (red), while turbulence carries heat down below it (blue). From February to May, surface heating exceeds turbulent cooling, and the sea surface temperature (SST) rises. From June to September, turbulent cooling exceeds surface heating, and the SST decreases (Moum et al., 2013). The same holds in the Atlantic cold tongue, where turbulent mixing is the main cooling term of the surface layer during the cold season (Hummels et al., 2013).
 
 :::{figure} figures/moum2013_fig3a.png
 :label: fig-moum
 :width: 70%
-One year at the equator, 140°W (Pacific), from January to January. Black: sea surface temperature. Red: heat brought into the surface layer by the sun and the atmosphere. Blue: heat carried down by turbulence below the surface layer. The surface warms when red exceeds blue, and cools when blue exceeds red. From Moum et al. (2013), Fig. 3a.
+One year at the equator, 140°W (Pacific), from January to January. Black: sea surface temperature (SST). Red: heat brought into the surface layer by the sun and the atmosphere. Blue: heat carried down by turbulence below the surface layer. The SST rises when red exceeds blue, and decreases when blue exceeds red. Adapted from Moum et al. (2013), Fig. 3a.
 :::
 
-This matters for the climate, because surface temperature sets how much heat and moisture the ocean gives to the atmosphere. In the tropical Atlantic, it affects rainfall over West Africa and South America, the position of the Intertropical Convergence Zone and hurricane activity (Foltz et al., 2019), and even, through the atmosphere, the climate of the tropical Pacific (Rodríguez-Fonseca et al., 2009). By cooling the surface, turbulent mixing takes part in all of this.
+This matters for the climate, because the SST sets the exchanges of heat and moisture between the ocean and the atmosphere. In the tropical Atlantic, it affects rainfall over West Africa and South America, the position of the Intertropical Convergence Zone and hurricane activity (Foltz et al., 2019), and even, through the atmosphere, the climate of the tropical Pacific (Rodríguez-Fonseca et al., 2009). By lowering the SST, turbulent mixing takes part in all of this.
 
 ## 3.2 Nutrients: feeding phytoplankton
 
