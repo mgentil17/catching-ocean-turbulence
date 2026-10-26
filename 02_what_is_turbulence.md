@@ -133,7 +133,7 @@ $\eta \approx 0.6$ mm: the more energy, the smaller the scales of dissipation, a
 :::
 ::::
 
-Two questions remain open. Why does so much energy flow through turbulence at 40–45 dbar, in a strongly stratified layer? And how much heat and oxygen does this turbulence actually move? This is part 3.
+Turbulence is strongest where temperature, oxygen and chlorophyll change fastest with depth. If it mixes heat, oxygen and nutrients across the thermocline, what does this change for the ocean, the atmosphere and marine life? This is part 3.
 
 :::{tip} Take-home
 - **A turbulent flow** is a mean flow plus irregular eddies. In the ocean, $Re$ is huge: the ocean is turbulent.
