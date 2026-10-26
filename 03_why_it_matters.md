@@ -15,7 +15,7 @@ The clearest example comes from the equatorial Pacific, where a mooring measured
 :::{figure} figures/moum2013_fig3a.png
 :label: fig-moum
 :width: 70%
-One year at the equator, 140°W (Pacific), from January to January. Black: sea surface temperature (SST). Red: heat brought into the surface layer by the sun and the atmosphere. Blue: heat carried down by turbulence below the surface layer. The SST rises when red exceeds blue, and decreases when blue exceeds red. Adapted from Moum et al. (2013), Fig. 3a.
+One year at the equator, 140°W (Pacific), from January to January. Black: sea surface temperature (SST). Red: heat brought into the surface layer by the sun and the atmosphere. Blue: heat carried down by turbulence below the surface layer. The SST rises when red exceeds blue, and decreases when blue exceeds red. From Moum et al. (2013), Fig. 3a.
 :::
 
 This matters for the climate, because the SST sets the exchanges of heat and moisture between the ocean and the atmosphere. In the tropical Atlantic, it affects rainfall over West Africa and South America, the position of the Intertropical Convergence Zone and hurricane activity (Foltz et al., 2019), and even, through the atmosphere, the climate of the tropical Pacific (Rodríguez-Fonseca et al., 2009). By lowering the SST, turbulent mixing takes part in all of this.
