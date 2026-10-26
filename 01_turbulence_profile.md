@@ -1,3 +1,8 @@
+---
+numbering:
+  enumerator: 1.%s
+---
+
 # 1. What does ocean turbulence look like?
 
 ## Seen from space: swirls within swirls
