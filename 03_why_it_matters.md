@@ -49,7 +49,7 @@ Our profile ({numref}`fig-profile`)b shows the same contrast at a smaller scale:
 
 ## 3.4 Back to the special depth
 
-In part 1, we asked whether the coincidence of the turbulence peak with the oxygen and chlorophyll maxima was a chance. In these three examples, mixing matters because it acts where heat, nutrients and oxygen change strongly with depth. On our profile, this is the layer around 40–45 dbar. How much turbulence moves there is what we compute in part 5, after learning how $\varepsilon$ is measured (part 4).
+In part 1, we asked whether the coincidence of the turbulence peak with the oxygen and chlorophyll maxima was a chance. In these three examples, mixing matters because it acts where heat, nutrients and oxygen change strongly with depth. On our profile ({numref}`fig-profile`), this is the layer around 40–45 dbar. How much turbulence moves there is what we compute in part 5, after learning how $\varepsilon$ is measured (part 4).
 
 :::{tip} Take-home
 - **Turbulent mixing connects the surface to the ocean interior**: it cools the sea surface temperature, brings nutrients up to phytoplankton, and brings oxygen to the OMZ.
