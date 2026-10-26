@@ -15,14 +15,14 @@ The clearest example comes from the equatorial Pacific, where a mooring measured
 :::{figure} figures/moum2013_fig3a.png
 :label: fig-moum
 :width: 70%
-One year at the equator, 140°W (Pacific), from January to January. Black: sea surface temperature (SST). Red: heat brought into the surface layer by the sun and the atmosphere. Blue: heat carried down by turbulence below the surface layer. The SST rises when red exceeds blue, and decreases when blue exceeds red. From Moum et al. (2013), Fig. 3a.
+One year at the equator, 140°W (Pacific), from January to January. Black: sea surface temperature (SST). Red: heat brought into the surface layer by the sun and the atmosphere. Blue: heat carried down by turbulence below the surface layer. The SST rises when red exceeds blue, and decreases when blue exceeds red. From Moum et al. (2013), *Seasonal sea surface cooling in the equatorial Pacific cold tongue controlled by ocean mixing*, Nature, 500, 64–67, Fig. 3a
 :::
 
 This matters for the climate, because the SST sets the exchanges of heat and moisture between the ocean and the atmosphere. In the tropical Atlantic, it affects rainfall over West Africa and South America, the position of the Intertropical Convergence Zone and hurricane activity (Foltz et al., 2019), and even, through the atmosphere, the climate of the tropical Pacific (Rodríguez-Fonseca et al., 2009). By lowering the SST, turbulent mixing takes part in all of this.
 
 ## 3.2 Nutrients: feeding phytoplankton
 
-Phytoplankton need light from above and nutrients from below (Cullen, 2015). In the equatorial Atlantic, turbulence is strongest in the layer between the surface and the core of the Equatorial Undercurrent, a strong eastward current below the surface (dashed line in {numref}`fig-nitrate`). Whether mixing brings nitrate up depends on where the **nitracline**, the depth below which nitrate is abundant, lies compared with this layer (Brandt et al., 2025):
+Phytoplankton need light from above and nutrients from below (Cullen, 2015). In the equatorial Atlantic, turbulence is strongest in the layer between the surface and the core of the Equatorial Undercurrent, a strong eastward current below the surface (dashed line in {numref}`fig-nitrate`). Whether mixing brings nitrate up depends on where the **nitracline**, the depth below which nitrate is abundant, lies compared with turbulent layer (Brandt et al., 2025):
 
 - **In April**, the nitracline lies below the current core: mixing acts on nitrate-poor water, and chlorophyll stays deep.
 - **In July**, the nitracline rises into the mixing layer: mixing brings nitrate up, and chlorophyll reaches the surface.
@@ -30,7 +30,7 @@ Phytoplankton need light from above and nutrients from below (Cullen, 2015). In 
 :::{figure} figures/brandt2025_fig6.png
 :label: fig-nitrate
 :width: 90%
-The equatorial Atlantic in April (left) and July (right), in the upper 150 m, from west (W) to east (E). Dashed line: core of the Equatorial Undercurrent; turbulence is strong above it. In April, the nitracline is below this core and chlorophyll stays deep; in July, the nitracline is above it, mixing brings nitrate up, and chlorophyll reaches the surface. From Brandt et al. (2025), Fig. 6.
+The equatorial Atlantic in April (left) and July (right), in the upper 150 m, from west (W) to east (E). Dashed line: core of the Equatorial Undercurrent; turbulence is strong above it. In April, the nitracline is below this core and chlorophyll stays deep; in July, the nitracline is above it, mixing brings nitrate up, and chlorophyll reaches the surface. From Brandt et al. (2025), *Seasonal productivity of the equatorial Atlantic shaped by distinct wind-driven processes*, Nature Geoscience, 18, 84–90, Fig. 6 (CC BY 4.0).
 :::
 
 Our profile was taken in April: its deep chlorophyll maximum, around 45 dbar, is the April case.
