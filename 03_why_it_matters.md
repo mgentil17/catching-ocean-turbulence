@@ -8,7 +8,7 @@ Part 2 showed that turbulence mixes heat, nutrients and oxygen across the water 
 
 % Time: ~20 min. One idea and one figure per section.
 
-## 3.1 Heat: cooling the sea surface temperature
+## 3.1 Heat: cooling the sea surface temperature 
 
 The clearest example comes from the equatorial Pacific, where a mooring measured turbulence for a whole year ({numref}`fig-moum`). The sun and the atmosphere heat the surface layer (red), while turbulence carries heat down below it (blue). From February to May, surface heating exceeds turbulent cooling, and the sea surface temperature (SST) rises. From June to September, turbulent cooling exceeds surface heating, and the SST decreases (Moum et al., 2013). The same holds in the Atlantic cold tongue, where turbulent mixing is the main cooling term of the surface layer during the cold season (Hummels et al., 2013).
 
@@ -37,21 +37,21 @@ Our profile ({numref}`fig-profile`)c was taken in April: its deep chlorophyll ma
 
 ## 3.3 Oxygen: ventilating the oxygen minimum zone
 
-In the eastern tropical North Atlantic, between about 350 and 550 m, lies water poor in oxygen: an **oxygen minimum zone**. There, respiration consumes oxygen, and several processes bring it back. {numref}`fig-oxygen` shows this budget: vertical mixing (black) is one of the supplies, of the same order as the others (Brandt et al., 2015).
+In the eastern tropical North Atlantic, between about 350 and 550 m, lies water poor in oxygen: an **oxygen minimum zone** (OMZ). There, respiration consumes oxygen, and several processes supply it. {numref}`fig-oxygen` shows this budget: vertical mixing (black) is one of these supplies, of the same order as the others (Brandt et al., 2015). This matters for marine life: many fish and zooplankton cannot live in oxygen-poor water, and the expansion of OMZs reduces their habitat (Stramma et al., 2012; Lévy et al., 2022).
 
 :::{figure} figures/levy2022_fig2.png
 :label: fig-oxygen
 :width: 70%
-Oxygen budget of the oxygen minimum zone of the eastern tropical North Atlantic, as a function of depth. Green: consumption by respiration. Black: supply by vertical (turbulent) mixing. Purple: supply by horizontal mixing. Yellow: supply by currents. Grey band: the oxygen minimum zone. From Lévy et al. (2022), Fig. 2, adapted from Brandt et al. (2015).
+Oxygen budget of the OMZ of the eastern tropical North Atlantic, as a function of depth. Green: consumption by respiration. Black: supply by vertical (turbulent) mixing. Purple: supply by horizontal mixing. Yellow: supply by currents. Grey band: the OMZ. From Lévy et al. (2022), *The crucial contribution of mixing to present and future ocean oxygen distribution*, in *Ocean Mixing: Drivers, Mechanisms and Impacts*, Elsevier, Fig. 2, adapted from Brandt et al. (2015), *Biogeosciences*, 12, 489–512.
 :::
 
-On our profile, the oxycline below 40 dbar shows the same contrast at a smaller scale: oxygen-rich water above, oxygen-poor water below, and turbulence in between.
+Our profile ({numref}`fig-profile`)b shows the same contrast at a smaller scale: below 40 dbar, the oxycline separates oxygen-rich water above from oxygen-poor water below, with turbulence in between.
 
 ## 3.4 Back to the special depth
 
 In part 1, we asked whether the coincidence of the turbulence peak with the oxygen and chlorophyll maxima was a chance. In these three examples, mixing matters because it acts where heat, nutrients and oxygen change strongly with depth. On our profile, this is the layer around 40–45 dbar. How much turbulence moves there is what we compute in part 5, after learning how $\varepsilon$ is measured (part 4).
 
 :::{tip} Take-home
-- **Turbulent mixing connects the surface to the ocean interior**: it cools the surface, brings nutrients up to phytoplankton, and brings oxygen down.
-- **These effects reach the climate and marine life**: rainfall, the supply of nutrients, the oxygen of the deep ocean.
+- **Turbulent mixing connects the surface to the ocean interior**: it cools the sea surface temperature, brings nutrients up to phytoplankton, and brings oxygen to the OMZ.
+- **These effects reach the climate and marine life**: through the SST, mixing affects rainfall; through nutrients and oxygen, it shapes where marine life can grow and live.
 :::
