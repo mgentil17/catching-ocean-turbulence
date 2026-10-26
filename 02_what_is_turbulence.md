@@ -1,3 +1,8 @@
+---
+numbering:
+  enumerator: 2.%s
+---
+
 # 2. What is turbulence?
 
 In part 1, we saw what ocean turbulence looks like: swirls within swirls, and a dissipation rate $\varepsilon$ that changes by a factor of 100 with depth. We read $\varepsilon$ as *"how strong the turbulence is"*. Here, we look at what turbulence is, and follow $\varepsilon$: what it is, where it comes from, and what it does to the water.
@@ -102,6 +107,8 @@ with $\Gamma \approx 0.2$ (a common choice, though not universal; Gregg et al., 
 
 ## 2.4 Reading $\varepsilon$ on our profile
 
+Let us look again at our profile ({numref}`fig-profile`) with what we now know.
+
 :::::{grid} 1 1 3 3
 
 ::::{card} ⚡ Energy flowing through turbulence
@@ -109,7 +116,7 @@ At the base of the mixed layer, each kilogram of water dissipates about $10^{-7}
 ::::
 
 ::::{card} 🔬 The last eddies
-With $\varepsilon = 10^{-7}$ W kg⁻¹, the last eddies are about **2 mm** across; with $10^{-9}$ W kg⁻¹, about **6 mm**. This is why we talk about **micro**structure.
+With $\varepsilon = 10^{-7}$ W kg⁻¹, the Kolmogorov scale is about **2 mm**; with $10^{-9}$ W kg⁻¹, about **6 mm**. The eddies that dissipate the energy are a few times larger, millimetres to centimetres: this is why we talk about **micro**structure.
 ::::
 
 ::::{card} 🌀 Where the gradients are
@@ -119,10 +126,10 @@ The peak of $\varepsilon$ around 40–45 dbar lies in the layer where temperatur
 :::::
 
 ::::{note} Your turn
-Check the values of the second card with $\eta = (\nu^3/\varepsilon)^{1/4}$ and $\nu = 10^{-6}$ m² s⁻¹. What would $\eta$ be in a very energetic layer with $\varepsilon = 10^{-5}$ W kg⁻¹?
+What would the Kolmogorov scale be in a very energetic layer, with $\varepsilon = 10^{-5}$ W kg⁻¹ ($\nu = 10^{-6}$ m² s⁻¹)?
 
 :::{dropdown} Answer
-About 1.8 mm and 5.6 mm. With $\varepsilon = 10^{-5}$ W kg⁻¹, $\eta \approx 0.6$ mm: the more energy, the smaller the last eddies, and the finer the profiler must resolve.
+$\eta \approx 0.6$ mm: the more energy, the smaller the scales of dissipation, and the finer the profiler must resolve (part 4).
 :::
 ::::
 
