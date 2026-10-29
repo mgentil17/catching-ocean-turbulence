@@ -36,7 +36,7 @@ From the ship: the vertical microstructure profiler (VMP). Autonomous: a glider 
 
 ## 4.2 The VMP and its probes
 
-The VMP falls freely and slowly through the water, attached to the ship by a slack rope so that the ship's motion does not reach it. Brushes at its tail slow it down and keep it vertical. Its nose carries the sensors ({numref}`fig-vmp`):
+The VMP falls freely through the water, at about 0.7 m s⁻¹, attached to the ship by a slack rope so that the ship's motion does not reach it. Brushes at its tail keep the fall speed steady and the instrument vertical.
 
 - **two shear probes**: the water flowing past the tip pushes it sideways, and a piezo-ceramic element turns this force into a signal proportional to the velocity fluctuation $u'$;
 - **fast thermistors** (FP07), for $T'$;
