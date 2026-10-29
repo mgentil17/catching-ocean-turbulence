@@ -31,7 +31,7 @@ These sensors are carried by many platforms ({numref}`fig-platforms`). This list
 :::{figure} figures/platforms.png
 :label: fig-platforms
 :width: 95%
-*To make (photos with credits).* Some platforms that measure ocean turbulence. From the ship: the vertical microstructure profiler (VMP; shear probes and fast thermistors). Autonomous: a glider with a MicroRider, a profiling float with a FloatRider (shear probes and fast thermistors). On moorings: the $\chi$pod (fast thermistors only).
+From the ship: the vertical microstructure profiler (VMP). Autonomous: a glider carrying a MicroRider, and a profiling float carrying a FloatRider (ArgoMix). On moorings: the $\chi$pod, with fast thermistors only. Images: Rockland Scientific (VMP-250, MicroRider and FloatRider; rocklandscientific.com) and Ocean Mixing Group, Oregon State University ($\chi$pod; mixing.ceoas.oregonstate.edu).
 :::
 
 ## 4.2 The VMP and its probes
