@@ -78,16 +78,21 @@ A VMP deployment during PIRATA FR-36. (a) Position of the ship during the profil
 
 ## 4.4 From shear to $\varepsilon$
 
-The processing of shear probe data follows the best practices of **ATOMIX**, an international working group that set common methods, quality checks and file formats, so that $\varepsilon$ from different instruments and groups can be compared (Lueck et al., 2024). Our files follow this format.
+The processing of shear probe data follows the best practices of **ATOMIX**, an international working group that set common methods, quality checks and file formats, so that $\varepsilon$ from different instruments and groups can be compared (Lueck et al., 2024). It goes in two stages: a quick check on board, then the full processing ashore.
 
-### Check the profile first
+### On board: a quick check
 
-Right after a profile, a quick look tells whether it is usable ({numref}`fig-check`): a steady fall speed, a small tilt, low vibrations, two shear probes giving similar signals, and no spikes (impacts of particles or plankton on the probes). The first metres below the surface are discarded, because they are disturbed by the ship's wake.
+Right after a profile, the raw file of the VMP (a binary `.p` file) is opened in **Zissou Essentials**, the free software of Rockland Scientific (a paid version, Zissou Premium, offers more). We select the free-fall descent and look at two things ({numref}`fig-check`):
+
+- **Kinematics**: below the surface, the tilt should stay within a few degrees, and the fall speed should be steady, between about 0.3 and 1 m s⁻¹. Vibrations should stay low.
+- **Microstructure**: a real turbulent patch shows up on **both** shear probes at the same depth. A spike on one probe only is probably an impact of a particle. The first metres are disturbed by the launch and the ship's wake, and are discarded.
+
+The goal on board is only to decide: is the profile usable, does the VMP need more weight, is a probe damaged? Zissou can also compute a quick spectrum, but a reliable $\varepsilon$ requires the full processing.
 
 :::{figure} figures/fig4_check.png
 :label: fig-check
 :width: 95%
-*To make (our data).* Quick check of one VMP profile. From left to right: fall speed, tilt, vibrations (accelerometers), and the signals of the two shear probes, as a function of pressure.
+Quick check of a VMP profile on board with Zissou Essentials. (a) Kinematics: vibrations, tilt and fall speed. (b) Microstructure: signals of the two shear probes (shifted for clarity), temperature gradients and background temperature.
 :::
 
 ### The four steps
