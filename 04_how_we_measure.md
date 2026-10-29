@@ -110,7 +110,7 @@ $$
 \varepsilon = \frac{15}{2}\,\nu \left\langle \left(\frac{\partial u'}{\partial z}\right)^2 \right\rangle = \frac{15}{2}\,\nu \int_{k_1}^{k_2} \Psi(k)\,\mathrm{d}k
 $$
 
-where $\nu$ is the viscosity of seawater. We only add up the sizes where the probe sees turbulence and not noise, from $k_1$ to $k_2$ (typically about 1 to 100 cpm).
+where $\nu$ is the viscosity of seawater. We only add up the sizes where the probe sees turbulence and not noise, from $k_1$ to $k_2$ (typically about 1 to 100 cpm). TThe spectrum is averaged over a segment of a few metres, which gives one value of $\varepsilon$. This is a compromise: a longer segment gives a more stable estimate, a shorter one keeps more vertical detail. This length is chosen in the processing chain.
 
 **Checking with the theory.** Theory tells us what the curve should look like for a given $\varepsilon$ (Nasmyth, 1970; Lueck, 2022). So we check that the measured spectrum has this shape. If it does, $\varepsilon$ is reliable; if it does not, because of noise or vibrations, the estimate is rejected. The theoretical curve is also used to add the smallest eddies, too small for the probe to see.
 
