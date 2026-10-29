@@ -45,10 +45,10 @@ The VMP falls freely through the water, at about 0.7 m s⁻¹, attached to the s
 
 The probes record the signal in time. Because the VMP falls much faster than the eddies change, we can assume that it crosses a frozen pattern of eddies (Taylor's frozen turbulence hypothesis): a change in time is then a change in depth, $\partial u'/\partial z = (1/W)\,\partial u'/\partial t$, where $W$ is the fall speed.
 
-:::{figure} figures/vmp_photos.png
+:::{figure} figures/vmp_probes.png
 :label: fig-vmp
-:width: 90%
-*To make (our photos).* Left: the VMP on deck during PIRATA FR-36. Right: its nose, with the two shear probes, the fast thermistors and the CTD sensors.
+:width: 70%
+The nose of a VMP-250, with its two shear probes, a fast thermistor (FP07), the conductivity–temperature (CT) sensor, the fluorometer–turbidity sensor and the pressure sensor. The tilt and vibration sensors are inside the case. Image: Rockland Scientific (rocklandscientific.com).
 :::
 
 ## 4.3 Operating a VMP at sea
