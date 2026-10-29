@@ -95,28 +95,38 @@ The goal on board is only to decide: is the profile usable, does the VMP need mo
 Quick check of a VMP profile on board with Zissou Essentials. (a) Kinematics: vibrations, tilt and fall speed. (b) Microstructure: signals of the two shear probes (shifted for clarity), temperature gradients and background temperature.
 :::
 
-### The four steps
+### Ashore: the four steps
 
-1. **L1, converted**: the signals in physical units.
-2. **L2, cleaned**: spikes and vibrations removed, usable sections selected.
+1. **L1, converted**: the signals in physical units, with the software of Rockland Scientific.
+2. **L2, cleaned**: spikes removed, and the part of the shear signal caused by the vibrations of the instrument (measured by the accelerometers) subtracted.
 3. **L3, spectra**: the shear spectrum computed over segments of a few metres.
-4. **L4, dissipation**: $\varepsilon$, obtained by integrating the spectrum, with its quality checks.
+4. **L4, dissipation**: $\varepsilon$, with its quality checks.
 
-Step 3 is where the theory of part 2 is used ({numref}`fig-shear-spectrum`). In practice, $\varepsilon$ is computed from the shear spectrum $\Psi(k)$, which shows how the shear variance is spread over wavenumbers:
+Steps 2 to 4 can be done with the toolbox of C. Vic (LINK).
+
+**The shear spectrum.** The shear signal measured over a segment mixes eddies of all sizes. Its spectrum $\Psi(k)$ separates them: it tells how much shear comes from the eddies of each size. As in section 2.2, the size is expressed by the **wavenumber** $k$, the number of oscillations per metre (cycles per metre, cpm): small $k$ for large eddies, large $k$ for small eddies. The area under the spectrum is the total shear variance $\langle(\partial u'/\partial z)^2\rangle$, so $\varepsilon$ follows from the formula of section 4.1:
 
 $$
-\varepsilon = \frac{15}{2}\,\nu \int_{k_1}^{k_2} \Psi(k)\,\mathrm{d}k
+\varepsilon = \frac{15}{2}\,\nu \left\langle \left(\frac{\partial u'}{\partial z}\right)^2 \right\rangle = \frac{15}{2}\,\nu \int_{k_1}^{k_2} \Psi(k)\,\mathrm{d}k
 $$
 
-The integral is taken over the wavenumbers not affected by noise, typically between about 1 and 100 cpm. The measured spectrum is compared with a universal shape that depends only on $\varepsilon$ and $\nu$, the Nasmyth spectrum (Nasmyth, 1970; Lueck, 2022), which is also used to correct for the part of the spectrum that is not resolved.
+where $\nu$ is the viscosity of seawater. The integral is the area under the spectrum, computed only over the wavenumbers not affected by noise, from $k_1$ to $k_2$ (typically between about 1 and 100 cpm).
 
-Two limits follow. When $\varepsilon$ is very large, the smallest eddies become smaller than the probe can resolve (about a centimetre). When $\varepsilon$ is very small, the signal falls below the noise of the instrument, around $10^{-10}$ W kg⁻¹.
+**The model spectrum.** Theory and many past measurements give the shape that a shear spectrum should have: once $\varepsilon$ and the viscosity are known, the whole curve is known (Nasmyth, 1970; Lueck, 2022). The model is used in two ways. First, it sets the upper limit $k_2$ of the integral and adds the small part of the spectrum that the probe cannot resolve. Second, once $\varepsilon$ is estimated, the measured spectrum is compared with the model spectrum for this $\varepsilon$: their mismatch is measured by a number, the **figure of merit**. A good match means that $\varepsilon$ is reliable; a poor match flags the estimate (Lueck et al., 2024).
 
-:::{figure} figures/fig4_spectrum.png
-:label: fig-shear-spectrum
-:width: 70%
-*To make (our data).* Shear spectra from our profile, in a strongly turbulent layer (around 43 dbar) and a weakly turbulent one (around 80 dbar), with the Nasmyth spectrum for the estimated $\varepsilon$ (dashed). The wavenumber is in cycles per metre (cpm).
+**Two limits.** When $\varepsilon$ is very large, the smallest eddies become smaller than the probe can resolve (about a centimetre). When $\varepsilon$ is very small, the signal falls below the noise of the instrument, around $10^{-10}$ W kg⁻¹.
+
+:::{figure} figures/fig4_processed.png
+:label: fig-processed
+:width: 95%
+The same profile (station 26) after processing with the toolbox of C. Vic. (d) $\varepsilon$ from each shear probe ($\varepsilon_1$, $\varepsilon_2$) and the final value $\varepsilon$ (white squares), as a function of time since the start of the record: the VMP goes deeper with time. (e) $\varepsilon_2$ against $\varepsilon_1$; rejected estimates are marked in red. (f) Cleaned shear spectra of the two probes ($\Psi_{1c}$, $\Psi_{2c}$) in two segments, with the model spectrum of Lueck (2022) in grey.
 :::
+
+How to read {numref}`fig-processed`:
+
+- **(d)** Each probe gives its own $\varepsilon$ (blue and red). The final value (white squares) is the mean of the two when both pass the quality checks, or the value of the only probe that passes them. Here, $\varepsilon$ is high in the upper part of the profile and in a patch around 100–110 dbar (near 1310 s), as seen on board ({numref}`fig-check`).
+- **(e)** If the two probes measure the same turbulence, their $\varepsilon$ fall close to the diagonal. Points far from it (in red) are rejected. The other labels ($\varepsilon_{isr}$, "isr kept") refer to another method, used only for very strong turbulence; it is not used here.
+- **(f)** Each curve is the shear spectrum of one probe over one segment, after removing the vibrations (index c, for *cleaned*). When it follows the grey model, $\varepsilon$ is well estimated. The upper pair comes from a turbulent segment: its spectrum is higher and extends to smaller eddies (larger $k$), as in the spectrum of section 2.2. The lower pair comes from a quiet segment. At the largest wavenumbers, the measured curves rise again: this is noise and vibrations, not turbulence, and it is left out of the integral.
 
 The L4 level of our files gives $\varepsilon$ with pressure, temperature, salinity and oxygen. This is all we need for part 5: from these profiles we compute $N^2$, then $K_\rho = \Gamma\varepsilon/N^2$, then the fluxes.
 
@@ -124,3 +134,4 @@ The L4 level of our files gives $\varepsilon$ with pressure, temperature, salini
 - **Turbulence is measured at millimetre scales**, with shear probes ($\varepsilon$) or fast thermistors ($\chi$), on many platforms.
 - **Good $\varepsilon$ starts at sea** with a well-flying instrument, and continues with a standard processing (ATOMIX) from shear to $\varepsilon$.
 :::
+
