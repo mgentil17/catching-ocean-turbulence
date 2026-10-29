@@ -55,25 +55,26 @@ The nose of a VMP-250, with its two shear probes, a fast thermistor (FP07), the 
 
 Good data start on deck ({numref}`fig-deploy`). The points below follow the recommendations of Rockland Scientific, the manufacturer, and common practice at sea.
 
+:::{figure} figures/vmp_deployment.png
+:label: fig-deploy
+:width: 90%
+A VMP deployment during PIRATA FR-36. (a) Position of the ship during the profiles: the ship moves slowly (1 m s⁻¹ at most) into the surface current, so that the rope (red) streams away from the stern. Below, the Equatorial Undercurrent flows the other way and can carry the VMP towards the ship at depth. (b) The VMP on deck, attached to the winch with a release; the rope is coiled on deck. (c) The VMP is lowered into the water. (d) Once released, it falls freely while the rope is paid out.
+:::
+
 **Before the profile**
 - Check the probes (state, calibration coefficients in the configuration file), the battery and the clock.
 - Do one or two test profiles, and check the data before starting the survey.
 
 **During the profile**
-- **Most important: the rope must stream away from the stern, never under the ship**, where the propellers can cut it.
-- The ship moves slowly into the current, at 0.5–1 m s⁻¹ at most. The GPS may even show the ship going backwards over the ground: this is fine as long as the rope streams away from the ship.
-- Pay out the rope generously, keeping only one or two coils of slack at the surface.
+- The VMP is lowered into the water with a winch and a release, then falls freely while the rope, coiled on deck, is paid out (panels b–d).
+- **Most important: the rope must stream away from the stern, never under the ship**, where the propellers can cut it (panel a).
+- The ship moves slowly into the surface current, at 0.5–1 m s⁻¹ at most. The GPS may even show the ship going backwards over the ground: this is fine as long as the rope streams away from the ship.
+- Pay out the rope generously, keeping only one or two coils of slack at the surface. At the equator, this matters even more: the Equatorial Undercurrent, below the surface, can carry the VMP towards the ship at depth (panel a).
 - Aim for a fall speed of about 0.7 m s⁻¹ (standard VMP-250; 1 m s⁻¹ at most for the electronics). If the fall speed drops below 0.3 m s⁻¹ or the instrument tilts, add weight.
 
 **After the profile**
 - Recover the VMP without hitting the probes, rinse it with fresh water, and protect the probes. Keep spare probes on board: they are fragile.
 - Note the time and position of each profile in the logbook.
-
-:::{figure} figures/vmp_deployment.png
-:label: fig-deploy
-:width: 90%
-*To make (our photos).* A VMP deployment during PIRATA FR-36: the instrument and its rope on deck (left), and the VMP going into the water from the stern (right).
-:::
 
 ## 4.4 From shear to $\varepsilon$
 
