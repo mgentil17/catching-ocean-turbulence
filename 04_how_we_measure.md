@@ -58,7 +58,7 @@ Good data start on deck ({numref}`fig-deploy`). The points below follow the reco
 :::{figure} figures/vmp_deployment.png
 :label: fig-deploy
 :width: 90%
-A VMP deployment during PIRATA FR-36. (a) Position of the ship during the profiles: the ship moves slowly (1 m s⁻¹ at most) into the surface current, so that the rope (red) streams away from the stern. Below, the Equatorial Undercurrent flows the other way and can carry the VMP towards the ship at depth. (b) The VMP on deck, attached to the winch with a release; the rope is coiled on deck. (c) The VMP is lowered into the water. (d) Once released, it falls freely while the rope is paid out. Photos and schematic: courtesy of F. Gasparin (IRD/LEGOS).
+A VMP deployment during PIRATA FR-36. (a) Position of the ship during the profiles: the ship moves slowly (1 m s⁻¹ at most) into the surface current, so that the rope (red) streams away from the stern. (b) The VMP on deck, attached to the winch with a release; the rope is coiled on deck. (c) The VMP is lowered into the water. (d) Once released, it falls freely while the rope is paid out. Photos and schematic: courtesy of F. Gasparin (IRD/LEGOS).
 :::
 
 **Before the profile**
