@@ -13,7 +13,7 @@ project:
     - file: 02_what_is_turbulence.md
     - file: 03_why_it_matters.md
     - file: 04_how_we_measure.md
-    - file: 05_fluxes_tropical_atlantic.md
+    - file: 05_exercise.md
     - file: references.md
 site:
   template: book-theme
