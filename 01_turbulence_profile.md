@@ -48,7 +48,7 @@ Note also the grey dots in the $\varepsilon$ panel. Successive estimates, only a
 
 These values are of the same order of magnitude as previous observations in the tropical Atlantic (Hummels et al., 2013) and in the global ocean (Waterhouse et al., 2014).
 
-The coincidence of the turbulence peak with the oxygen and chlorophyll maxima is striking. Is it a chance, or does turbulence play a role in shaping these layers? Keep this question in mind: we come back to it in parts 3 and 5.
+The coincidence of the turbulence peak with the oxygen and chlorophyll maxima is striking. Is it a chance, or does turbulence play a role in shaping these layers? Keep this question in mind: we come back to it in part 3.
 
 ::::{note} Your turn: find the special depth
 Compare the four panels of {numref}`fig-profile` side by side, at the same depth.
@@ -62,8 +62,6 @@ Between about 40 and 45 dbar:
 - oxygen reaches its **maximum**, around 40 dbar;
 - chlorophyll reaches its **maximum**, around 45 dbar;
 - temperature drops fastest: this is where the **vertical temperature gradient** is strongest.
-
-Is this a coincidence, or does turbulence play a role in shaping these layers? Keep this question in mind: we come back to it in parts 3 and 5.
 :::
 ::::
 
@@ -84,8 +82,7 @@ How can a profiler falling through the ocean measure $\varepsilon$?
 :::
 
 :::{card} 5. Is it the same elsewhere?
-Would we find the same profile a few degrees south of the equator?
-:::
+How does turbulence differ between the equator and off-equator, and what does it change for the fluxes of heat and oxygen?:::
 
 ::::
 
