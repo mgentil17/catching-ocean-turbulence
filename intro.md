@@ -37,11 +37,11 @@ Turbulent fluxes of heat and oxygen in the tropical Atlantic, computed from real
 
 | | Question | Time |
 |---|---|---|
-| 1 | **What does ocean turbulence look like?** A first look at a real profile. | 5 min |
-| 2 | **What is turbulence?** Eddies, energy cascade, stratification and shear. | 25 min |
-| 3 | **Why does it matter?** From turbulence to vertical fluxes of heat, oxygen and nutrients. | 15 min |
-| 4 | **How do we measure it?** Microstructure, the VMP at sea, and the processing chain. | 35 min |
-| 5 | **An application:** turbulent fluxes in the tropical Atlantic, with Jupyter notebooks. | 1 h 40 |
+| 1 | **What does ocean turbulence look like?** A first look at a real profile. | XX min |
+| 2 | **What is turbulence?** Eddies, energy cascade, stratification and shear. | XX h |
+| 3 | **Why does it matter?** From turbulence to vertical fluxes of heat, oxygen and nutrients. | XX h |
+| 4 | **How do we measure it?** Microstructure, the VMP at sea, and the processing chain. | XX h |
+| 5 | **An application:** turbulent fluxes in the tropical Atlantic, with Jupyter notebooks. | XX h |
 
 Parts 1 to 4 are short reading pages. Part 5 is hands-on: the notebooks run in your web browser, there is nothing to install.
 
