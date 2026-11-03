@@ -47,7 +47,7 @@ The energy of the eddies follows a chain in three steps (Tennekes & Lumley, 1972
    > *Big whirls have little whirls that feed on their velocity,*\
    > *and little whirls have lesser whirls and so on to viscosity.*
 
-3. **Dissipation.** When the eddies are only millimetres to centimetres across, viscosity can finally act: it turns their energy into heat.
+3. **Dissipation.** When the eddies are only millimeters to centimeters across, viscosity can finally act: it turns their energy into heat.
 
 **$\varepsilon$ is the rate of this last step**: the energy dissipated by viscosity, per kilogram of water and per second (W kg⁻¹). When turbulence is steady, what is dissipated at the end of the chain is what was produced at the start: **$\varepsilon$ tells us how much energy flows through turbulence**. In a stratified ocean, part of the energy is also used to lift dense water; we come back to this in part 3 (Osborn, 1980).
 
