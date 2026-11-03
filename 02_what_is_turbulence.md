@@ -42,7 +42,7 @@ $\bar{u}$ is the current, averaged over time or space; $u'$ are the eddies. The 
 The energy of the eddies follows a chain in three steps (Tennekes & Lumley, 1972):
 
 1. **Production.** Where the current changes with depth (the **shear**), the current gives part of its energy to the eddies. Winds, tides and currents are the original sources of this shear.
-2. **Cascade.** Large eddies break into smaller eddies, which break into even smaller ones. As Richardson (1922, p. 66) put it:
+2. **Cascade.** Large eddies break into smaller eddies, which break into even smaller ones. As Richardson, 2007 write:
 
    > *Big whirls have little whirls that feed on their velocity,*\
    > *and little whirls have lesser whirls and so on to viscosity.*
