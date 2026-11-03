@@ -44,7 +44,7 @@ $\varepsilon$ is of order $10^{-7}$ W kg⁻¹ at the base of the mixed layer and
 
 :::::
 
-Note also the grey dots in the $\varepsilon$ panel. Successive estimates, only a few metres apart, can differ by a factor of ten. Turbulence comes **in patches and bursts: it is intermittent**. This is one reason why ocean turbulence is difficult to observe, and why we will average many estimates later on.
+Note also the grey dots in the $\varepsilon$ panel. Successive estimates, only a few meters apart, can differ by a factor of ten. Turbulence comes **in patches and bursts: it is intermittent**. This is one reason why ocean turbulence is difficult to observe, and why we will average many estimates later on.
 
 These values are of the same order of magnitude as previous observations in the tropical Atlantic (Hummels et al., 2013) and in the global ocean (Waterhouse et al., 2014).
 
