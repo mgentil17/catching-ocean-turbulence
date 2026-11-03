@@ -4,13 +4,13 @@ numbering:
 ---
 # 4. How do we measure turbulence?
 
-In part 2, we saw that $\varepsilon$ is set by how the velocity changes over millimetres to centimetres. So how can a profiler falling through the ocean measure this? We first look at the two ways and the platforms used to catch turbulence, then follow our instrument, the vertical microstructure profiler (VMP), from the deck to $\varepsilon$.
+In part 2, we saw that $\varepsilon$ is set by how the velocity changes over millimeters to centimeters. So how can a profiler falling through the ocean measure this? We first look at the two ways and the platforms used to catch turbulence, then follow our instrument, the vertical microstructure profiler (VMP), from the deck to $\varepsilon$.
 
 % Time: ~30 min. 4.1 two ways (5 min), 4.2 the VMP (5 min), 4.3 at sea (10 min), 4.4 shear to eps (10 min).
 
 ## 4.1 Two ways to catch turbulence
 
-Turbulence is measured at millimetre to centimetre scales, in two ways:
+Turbulence is measured at millimeter to centimeter scales, in two ways:
 
 - **Shear probes** measure the fluctuations of velocity. From their gradients we get $\varepsilon$ (section 2.2):
 
@@ -24,7 +24,7 @@ $$
 \chi = 6\,\kappa_T \left\langle \left(\frac{\partial T'}{\partial z}\right)^2 \right\rangle
 $$
 
-$\chi$ can also give $\varepsilon$, and the eddy diffusivity of heat (Osborn & Cox, 1972). In this course, we use the shear probes, for which there is today a consensus on the processing (ATOMIX; Lueck et al., 2024). The brackets $\langle\;\rangle$ are averages over a few metres of profile; the factors 15/2 and 6 come from assuming that the small-scale turbulence has the same statistics in all directions (isotropy; Taylor, 1935).
+$\chi$ can also give $\varepsilon$, and the eddy diffusivity of heat (Osborn & Cox, 1972). In this course, we use the shear probes, for which there is today a consensus on the processing (ATOMIX; Lueck et al., 2024). The brackets $\langle\;\rangle$ are averages over a few meters of profile; the factors 15/2 and 6 come from assuming that the small-scale turbulence has the same statistics in all directions (isotropy; Taylor, 1935).
 
 These sensors are carried by many platforms ({numref}`fig-platforms`). This list is not exhaustive; other platforms include autonomous underwater vehicles or tethered profilers.
 
@@ -102,19 +102,19 @@ Quick check of a VMP profile on board with Zissou Essentials. (a) Kinematics: vi
 3. **L3, spectra**: the shear spectrum computed over segments of a few metres.
 4. **L4, dissipation**: $\varepsilon$, with its quality checks.
 
-Steps 2 to 4 can be done with the toolbox of C. Vic (https://github.com/cvic29/py-ocean-microstructure/tree/main).
+Steps 2 to 4 can be done with the toolbox of Vic et al., in prep (https://github.com/cvic29/py-ocean-microstructure/tree/main).
 
-**The shear spectrum.** Over a segment of a few metres, the shear signal mixes eddies of all sizes. Like a prism that splits light into colours, the **shear spectrum** $\Psi(k)$ splits this signal into eddy sizes: it tells how much shear comes from each size. The size is given by the **wavenumber** $k$, the number of oscillations per metre (cpm): large eddies on the left, small eddies on the right. Adding up all sizes, that is, taking the area under the curve, gives back the total shear, and therefore $\varepsilon$ (section 4.1):
+**The shear spectrum.** Over a segment of a few meters, the shear signal mixes eddies of all sizes. Like a prism that splits light into colours, the **shear spectrum** $\Psi(k)$ splits this signal into eddy sizes: it tells how much shear comes from each size. The size is given by the **wavenumber** $k$, the number of oscillations per metre (cpm): large eddies on the left, small eddies on the right. Adding up all sizes, that is, taking the area under the curve, gives back the total shear, and therefore $\varepsilon$ (section 4.1):
 
 $$
 \varepsilon = \frac{15}{2}\,\nu \left\langle \left(\frac{\partial u'}{\partial z}\right)^2 \right\rangle = \frac{15}{2}\,\nu \int_{k_1}^{k_2} \Psi(k)\,\mathrm{d}k
 $$
 
-where $\nu$ is the viscosity of seawater. We only add up the sizes where the probe sees turbulence and not noise, from $k_1$ to $k_2$ (typically about 1 to 100 cpm). TThe spectrum is averaged over a segment of a few metres, which gives one value of $\varepsilon$. This is a compromise: a longer segment gives a more stable estimate, a shorter one keeps more vertical detail. This length is chosen in the processing chain.
+where $\nu$ is the viscosity of seawater. We only add up the sizes where the probe sees turbulence and not noise, from $k_1$ to $k_2$ (typically about 1 to 100 cpm). The spectrum is averaged over a segment of a few meters, which gives one value of $\varepsilon$. This is a compromise: a longer segment gives a more stable estimate, a shorter one keeps more vertical detail. This length is chosen in the processing chain.
 
 **Checking with the theory.** Theory tells us what the curve should look like for a given $\varepsilon$ (Nasmyth, 1970; Lueck, 2022). So we check that the measured spectrum has this shape. If it does, $\varepsilon$ is reliable; if it does not, because of noise or vibrations, the estimate is rejected. The theoretical curve is also used to add the smallest eddies, too small for the probe to see.
 
-**Two limits.** When turbulence is very strong, the smallest eddies become smaller than the probe itself (about a centimetre), and it cannot see them all. When turbulence is very weak, the signal becomes smaller than the noise of the instrument, around $10^{-10}$ W kg⁻¹. Our profile, with $\varepsilon$ between $10^{-9}$ and $10^{-7}$ W kg⁻¹, lies well between these two limits.
+**Two limits.** When turbulence is very strong, the smallest eddies become smaller than the probe itself (about a centimeter), and it cannot see them all. When turbulence is very weak, the signal becomes smaller than the noise of the instrument, around $10^{-10}$ W kg⁻¹. Our profile, with $\varepsilon$ between $10^{-9}$ and $10^{-7}$ W kg⁻¹, lies well between these two limits.
 
 :::{figure} figures/fig4_processed.png
 :label: fig-processed
@@ -131,7 +131,7 @@ How to read {numref}`fig-processed`:
 The L4 level of our files gives $\varepsilon$ with pressure, temperature, salinity and oxygen. This is all we need for part 5: from these profiles we compute $N^2$, then $K_\rho = \Gamma\varepsilon/N^2$, then the fluxes.
 
 :::{tip} Take-home
-- **Turbulence is measured at millimetre scales**, with shear probes ($\varepsilon$) or fast thermistors ($\chi$), on many platforms.
+- **Turbulence is measured at centimeter scales**, with shear probes ($\varepsilon$) or fast thermistors ($\chi$), on many platforms.
 - **Good $\varepsilon$ starts at sea** with a well-flying instrument, and continues with a standard processing (ATOMIX) from shear to $\varepsilon$.
 :::
 
