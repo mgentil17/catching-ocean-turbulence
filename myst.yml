@@ -14,7 +14,7 @@ project:
     - file: 03_why_it_matters.md
     - file: 04_how_we_measure.md
     - file: 05_exercise.ipynb
-    - file: references.md
+    - file: references_apa.md
 site:
   template: book-theme
   options:
