@@ -1,4 +1,4 @@
-# Catching ocean turbulence
+# Catching Ocean Turbulence
 
 This course was developed by Mathieu Gentil (LEGOS / IRD, Toulouse) for a workshop at the Universidad de Costa Rica (2026). It is a short introduction to ocean turbulence, built around real microstructure data from the PIRATA FR-36 cruise in the tropical Atlantic.
 
