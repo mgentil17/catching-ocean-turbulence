@@ -82,7 +82,7 @@ How can a profiler falling through the ocean measure $\varepsilon$?
 :::
 
 :::{card} 5. Is it the same elsewhere?
-How does turbulence differ between the equator and off-equator, and what does it change for the fluxes of heat and oxygen?:::
+How does turbulence differ between the equator and off-equator, and what does it change for the fluxes of heat and oxygen?
 
 ::::
 
