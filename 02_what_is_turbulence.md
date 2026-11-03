@@ -85,7 +85,7 @@ The same warm layer between cold water, as in a thermocline, at three times ($t 
 Molecular diffusion of heat ($\kappa_T \approx 1.4 \times 10^{-7}$ m² s⁻¹) smooths a temperature difference over a distance $L$ in a time $t \approx L^2/\kappa_T$. Compute $t$ for $L = 1$ m and for $L = 1$ mm.
 
 :::{dropdown} Answer
-About **80 days** for 1 m, and about **7 seconds** for 1 mm. Diffusion alone is far too slow at the scale of the thermocline; stirring is what brings the tracer down to millimetre scales, where diffusion is fast.
+About **80 days** for 1 m, and about **7 seconds** for 1 mm. Diffusion alone is far too slow at the scale of the thermocline; stirring is what brings the tracer down to millimeter scales, where diffusion is fast.
 :::
 ::::
 
