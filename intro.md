@@ -1,4 +1,4 @@
-# Catching ocean turbulence
+# Catching Ocean Turbulence
 
 :::{image} figures/logo.svg
 :width: 140px
