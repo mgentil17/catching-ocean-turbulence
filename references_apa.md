@@ -1,8 +1,8 @@
 # References
 
-Brandt, P., Bange, H. W., Banyte, D., Dengler, M., Didwischus, S.-H., Fischer, T., Greatbatch, R. J., Hahn, J., Kanzow, T., Karstensen, J., Körtzinger, A., Krahmann, G., Schmidtko, S., Stramma, L., Tanhua, T., & Visbeck, M. (2015). On the role of circulation and mixing in the ventilation of oxygen minimum zones with a focus on the eastern tropical North Atlantic. *Biogeosciences*, *12*(2), 489–512. https://doi.org/10.5194/bg-12-489-2015
+Brandt, P., Bange, H. W., Banyte, D., Dengler, M., Didwischus, S.-H., Fischer, T., Greatbatch, R. J., Hahn, J., Kanzow, T., Karstensen, J., Körtzinger, A., Krahmann, G., Schmidtko, S., Stramma, L., Tanhua, T., & Visbeck, M. (2015). On the role of circulation and mixing in the ventilation of oxygen minimum zones with a focus on the eastern tropical North Atlantic. *Biogeosciences*, *12*(2), 489–512.
 
-Brandt, P., Körner, M., Moum, J. N., Roch, M., Subramaniam, A., Czeschel, R., Krahmann, G., Dengler, M., & Kiko, R. (2025). Seasonal productivity of the equatorial Atlantic shaped by distinct wind-driven processes. *Nature Geoscience*, *18*(1), 84–90. https://doi.org/10.1038/s41561-024-01609-9
+Brandt, P., Körner, M., Moum, J. N., Roch, M., Subramaniam, A., Czeschel, R., Krahmann, G., Dengler, M., & Kiko, R. (2025). Seasonal productivity of the equatorial Atlantic shaped by distinct wind-driven processes. *Nature Geoscience*, *18*(1), 84–90.
 
 Cullen, J. J. (2015). Subsurface chlorophyll maximum layers: Enduring enigma or mystery solved? *Annual Review of Marine Science*, *7*(1), 207–239.
 
@@ -10,9 +10,9 @@ de Boyer Montégut, C., Madec, G., Fischer, A. S., Lazar, A., & Iudicone, D. (20
 
 Eckart, C. (1948). *An analysis of the stirring and mixing processes in incompressible fluids*.
 
-Foltz, G. R., Brandt, P., Richter, I., Rodríguez-Fonseca, B., Hernandez, F., Dengler, M., Rodrigues, R. R., Schmidt, J. O., Yu, L., Lefevre, N., Cotrim Da Cunha, L., McPhaden, M. J., Araujo, M., Karstensen, J., Hahn, J., Martín-Rey, M., Patricola, C. M., Poli, P., Zuidema, P., Hummels, R., Perez, R. C., Hatje, V., Lübbecke, J. F., Polo, I., Lumpkin, R., Bourlès, B., Asuquo, F. E., Lehodey, P., Conchon, A., Chang, P., Dandin, P., Schmid, C., Sutton, A., Giordani, H., Xue, Y., Illig, S., Losada, T., Grodsky, S. A., Gasparin, F., Lee, T., Mohino, E., Nobre, P., Wanninkhof, R., Keenlyside, N., Garcon, V., Sánchez-Gómez, E., Nnamchi, H. C., Drévillon, M., Storto, A., Remy, E., Lazar, A., Speich, S., Goes, M., Dorrington, T., Johns, W. E., Moum, J. N., Robinson, C., Perruche, C., de Souza, R. B., Gaye, A. T., López-Parages, J., Monerie, P.-A., Castellanos, P., Benson, N. U., Hounkonnou, M. N., Trotte Duhá, J., Laxenaire, R., & Reul, N. (2019). The Tropical Atlantic Observing System. *Frontiers in Marine Science*, *6*, 206. https://doi.org/10.3389/fmars.2019.00206
+Foltz, G. R., Brandt, P., Richter, I., Rodríguez-Fonseca, B., Hernandez, F., Dengler, M., Rodrigues, R. R., Schmidt, J. O., Yu, L., Lefevre, N., Cotrim Da Cunha, L., McPhaden, M. J., Araujo, M., Karstensen, J., Hahn, J., Martín-Rey, M., Patricola, C. M., Poli, P., Zuidema, P., Hummels, R., Perez, R. C., Hatje, V., Lübbecke, J. F., Polo, I., Lumpkin, R., Bourlès, B., Asuquo, F. E., Lehodey, P., Conchon, A., Chang, P., Dandin, P., Schmid, C., Sutton, A., Giordani, H., Xue, Y., Illig, S., Losada, T., Grodsky, S. A., Gasparin, F., Lee, T., Mohino, E., Nobre, P., Wanninkhof, R., Keenlyside, N., Garcon, V., Sánchez-Gómez, E., Nnamchi, H. C., Drévillon, M., Storto, A., Remy, E., Lazar, A., Speich, S., Goes, M., Dorrington, T., Johns, W. E., Moum, J. N., Robinson, C., Perruche, C., de Souza, R. B., Gaye, A. T., López-Parages, J., Monerie, P.-A., Castellanos, P., Benson, N. U., Hounkonnou, M. N., Trotte Duhá, J., Laxenaire, R., & Reul, N. (2019). The Tropical Atlantic Observing System. *Frontiers in Marine Science*, *6*, 206.
 
-Gregg, M. C., D'Asaro, E. A., Riley, J. J., & Kunze, E. (2018). Mixing efficiency in the ocean. *Annual Review of Marine Science*, *10*, 443–473. https://doi.org/10.1146/annurev-marine-121916-063643
+Gregg, M. C., D'Asaro, E. A., Riley, J. J., & Kunze, E. (2018). Mixing efficiency in the ocean. *Annual Review of Marine Science*, *10*, 443–473.
 
 Howard, L. N. (1961). Note on a paper of John W. Miles. *Journal of Fluid Mechanics*, *10*, 509–512.
 
@@ -26,9 +26,9 @@ Ledwell, J. R., Watson, A. J., & Law, C. S. (1993). Evidence for slow mixing acr
 
 Lévy, M., Resplandy, L., Palter, J. B., Couespel, D., & Lachkar, Z. (2022). The crucial contribution of mixing to present and future ocean oxygen distribution. In *Ocean mixing* (pp. 329–344). Elsevier.
 
-Lueck, R. G. (2022). The statistics of oceanic turbulence measurements. Part II: Shear spectra and a new spectral model. *Journal of Atmospheric and Oceanic Technology*, *39*(9), 1273–1282. https://doi.org/10.1175/JTECH-D-21-0050.1
+Lueck, R. G. (2022). The statistics of oceanic turbulence measurements. Part II: Shear spectra and a new spectral model. *Journal of Atmospheric and Oceanic Technology*, *39*(9), 1273–1282.
 
-Lueck, R., Fer, I., Bluteau, C., Dengler, M., Holtermann, P., Inoue, R., LeBoyer, A., Nicholson, S.-A., Schulz, K., & Stevens, C. (2024). Best practices recommendations for estimating dissipation rates from shear probes. *Frontiers in Marine Science*, *11*, 1334327. https://doi.org/10.3389/fmars.2024.1334327
+Lueck, R., Fer, I., Bluteau, C., Dengler, M., Holtermann, P., Inoue, R., LeBoyer, A., Nicholson, S.-A., Schulz, K., & Stevens, C. (2024). Best practices recommendations for estimating dissipation rates from shear probes. *Frontiers in Marine Science*, *11*, 1334327.
 
 Miles, J. W. (1961). On the stability of heterogeneous shear flows. *Journal of Fluid Mechanics*, *10*, 496–508.
 
@@ -56,7 +56,7 @@ Scott, R. B., & Wang, F. (2005). Direct evidence of an oceanic inverse kinetic e
 
 Stewart, R. H. (2008). *Introduction to physical oceanography* (Vol. 65). College Station: Texas A & M University.
 
-Stramma, L., Prince, E. D., Schmidtko, S., Luo, J., Hoolihan, J. P., Visbeck, M., Wallace, D. W. R., Brandt, P., & Körtzinger, A. (2012). Expansion of oxygen minimum zones may reduce available habitat for tropical pelagic fishes. *Nature Climate Change*, *2*(1), 33–37. https://doi.org/10.1038/nclimate1304
+Stramma, L., Prince, E. D., Schmidtko, S., Luo, J., Hoolihan, J. P., Visbeck, M., Wallace, D. W. R., Brandt, P., & Körtzinger, A. (2012). Expansion of oxygen minimum zones may reduce available habitat for tropical pelagic fishes. *Nature Climate Change*, *2*(1), 33–37.
 
 Taylor, G. I. (1922). Diffusion by continuous movements. *Proceedings of the london mathematical society*, *2*(1), 196–212.
 
@@ -64,4 +64,4 @@ Taylor, G. I. (1935). Statistical theory of turbulenc. *Proceedings of the Royal
 
 Tennekes, H., & Lumley, J. L. (1972). *A first course in turbulence* (Vol. 10). Cambridge, MA: MIT press.
 
-Waterhouse, A. F., MacKinnon, J. A., Nash, J. D., Alford, M. H., Kunze, E., Simmons, H. L., et al. (2014). Global patterns of diapycnal mixing from measurements of the turbulent dissipation rate. *Journal of Physical Oceanography*, *44*, 1854–1872. https://doi.org/10.1175/JPO-D-13-0104.1
+Waterhouse, A. F., MacKinnon, J. A., Nash, J. D., Alford, M. H., Kunze, E., Simmons, H. L., et al. (2014). Global patterns of diapycnal mixing from measurements of the turbulent dissipation rate. *Journal of Physical Oceanography*, *44*, 1854–1872.
