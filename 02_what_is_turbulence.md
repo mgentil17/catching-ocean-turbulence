@@ -73,7 +73,7 @@ No. In the ocean, large eddies (tens to hundreds of kilometres) are nearly two-d
 
 The eddies carry everything that is in the water: momentum, but also heat, salt, oxygen or nutrients, called **tracers**.
 
-Eddies stretch and fold a patch of tracer into thinner and thinner filaments. This is **stirring**: the gradients become stronger, but the water is not mixed yet. When the filaments are thin enough, **molecular diffusion** smooths them out. This is **mixing** (Eckart, 1948; Osborn, 1998). **Turbulent mixing** is the two in series, and its rate is set by the stirring (Müller & Garrett, 2002).
+Eddies stretch and fold a patch of tracer into thinner and thinner filaments. This is **stirring**: the gradients become stronger, but the water is not mixed yet. When the filaments are thin enough, **molecular diffusion** smooths them out. This is **mixing** (Eckart, 1948). **Turbulent mixing** is the two in series, and its rate is set by the stirring (Müller & Garrett, 2002).
 
 :::{figure} figures/stirring_mixing.png
 :label: fig-stirring
@@ -89,7 +89,7 @@ About **80 days** for 1 m, and about **7 seconds** for 1 mm. Diffusion alone is 
 :::
 ::::
 
-The result is a **turbulent heat flux**, written $\overline{w'T'}$ with the fluctuations of section 2.1: eddies carry warm water down and cold water up. Taylor (1921) showed that this flux acts like a diffusion, but much stronger than molecular diffusion:
+The result is a **turbulent heat flux**, written $\overline{w'T'}$ with the fluctuations of section 2.1: eddies carry warm water down and cold water up. Taylor (1922) showed that this flux acts like a diffusion, but much stronger than molecular diffusion:
 
 $$
 \overline{w'T'} = -K_\rho\,\frac{\partial \bar{T}}{\partial z}
