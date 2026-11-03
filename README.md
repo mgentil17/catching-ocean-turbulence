@@ -1,11 +1,9 @@
 # Catching ocean turbulence
 
-*From a microstructure profile to a mixing flux — a short hands-on course.*
+*From a microstructure profile to a mixing flux.*
 
-This course was prepared by Mathieu Gentil (LEGOS / IRD, Toulouse) for a workshop at the Universidad de Costa Rica.
+A short course on ocean turbulence, built around real data. We follow a profile measured in the equatorial Atlantic: what turbulence is, why it matters, how we measure it, and how much heat and oxygen it moves.
 
-It is a short introduction to ocean turbulence and mixing, with a focus on how we measure it. We start from a vertical microstructure profiler (VMP), look at how it is used at sea, and process one profile step by step until we get a mixing flux.
+👉 **Read the course:** https://mgentil17.github.io/catching-ocean-turbulence/
 
-The course mixes short reading pages and Jupyter notebooks that run in the browser.
-
-🚧 Work in progress.
+Prepared by Mathieu Gentil (LEGOS / IRD) for a workshop at the Universidad de Costa Rica.
