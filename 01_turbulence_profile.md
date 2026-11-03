@@ -48,7 +48,7 @@ Note also the grey dots in the $\varepsilon$ panel. Successive estimates, only a
 
 These values are of the same order of magnitude as previous observations in the tropical Atlantic (Hummels et al., 2013) and in the global ocean (Waterhouse et al., 2014).
 
-The coincidence of the turbulence peak with the oxygen and chlorophyll maxima is striking. Is it a chance, or does turbulence play a role in shaping these layers? Keep this question in mind: we come back to it in part 3.
+The turbulence peak lies in the thermocline, close to the oxygen and chlorophyll maxima. Does this turbulence move heat, oxygen and nutrients across these layers, and does it matter? We come back to this in part 3.
 
 ::::{note} Your turn: find the special depth
 Compare the four panels of {numref}`fig-profile` side by side, at the same depth.
