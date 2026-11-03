@@ -47,9 +47,9 @@ Oxygen budget of the OMZ of the eastern tropical North Atlantic, as a function o
 
 Our profile ({numref}`fig-profile`)b shows the same contrast at a smaller scale: below 40 dbar, the oxycline separates oxygen-rich water above from oxygen-poor water below, with turbulence in between.
 
-## 3.4 Back to the special depth
+## 3.4 Back to our profile
 
-In part 1, we asked whether the coincidence of the turbulence peak with the oxygen and chlorophyll maxima was a chance. In these three examples, mixing matters because it acts where heat, nutrients and oxygen change strongly with depth. On our profile ({numref}`fig-profile`), this is the layer around 40–45 dbar. How much turbulence moves there is what we compute in part 5, after learning how $\varepsilon$ is measured (part 4).
+In part 1, we asked whether the turbulence of our profile matters. These three examples show that it does: mixing cools the sea surface, brings nutrients up and brings oxygen down, and it acts most where these properties change strongly with depth, as just below the mixed layer of our profile ({numref}`fig-profile`). How large these fluxes are, at the equator and off the equator, is what we compute in part 5, after learning how $\varepsilon$ is measured (part 4).
 
 :::{tip} Take-home
 - **Turbulent mixing connects the surface to the ocean interior**: it cools the sea surface temperature, brings nutrients up to phytoplankton, and brings oxygen to the OMZ.
