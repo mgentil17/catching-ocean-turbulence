@@ -101,7 +101,7 @@ $$
 K_\rho = \Gamma\,\frac{\varepsilon}{N^2}
 $$
 
-with $\Gamma \approx 0.2$ (a common choice, though not universal; Gregg et al., 2018) and $N^2 = -(g/\rho_0)\,\partial\rho/\partial z$ the strength of the stratification. More energy means more mixing; stronger stratification means less. **This is why we measure $\varepsilon$**: with $N^2$, it gives $K_\rho$, and then the fluxes of heat and oxygen (part 3). We assume here that heat and oxygen are mixed like density, with the same $K_\rho$.
+with $\Gamma \approx 0.2$ (a common choice, though not universal; Gregg et al., 2018) and $N^2 = -(g/\rho_0)\,\partial\rho/\partial z$ the strength of the stratification. More energy means more mixing; stronger stratification means less. **This is why we measure $\varepsilon$**: with $N^2$, it gives $K_\rho$, and then the turbulent fluxes of heat and oxygen (part 3). We assume here that heat and oxygen are mixed like density, with the same $K_\rho$.
 
 % In class: a glass of water with a drop of dye, left at rest, then stirred with a spoon.
 
@@ -116,7 +116,7 @@ At the base of the mixed layer, each kilogram of water dissipates about $10^{-7}
 ::::
 
 ::::{card} 🔬 The last eddies
-With $\varepsilon = 10^{-7}$ W kg⁻¹, the Kolmogorov scale is about **2 mm**; with $10^{-9}$ W kg⁻¹, about **6 mm**. The eddies that dissipate the energy are a few times larger, millimetres to centimetres: this is why we talk about **micro**structure.
+With $\varepsilon = 10^{-7}$ W kg⁻¹, the Kolmogorov scale is about **2 mm**; with $10^{-9}$ W kg⁻¹, about **6 mm**. The eddies that dissipate the energy are a few times larger, millimeters to centimeters: this is why we talk about **micro**structure.
 ::::
 
 ::::{card} 🌀 Where the gradients are
@@ -137,6 +137,6 @@ Turbulence is strongest where temperature, oxygen and chlorophyll change fastest
 
 :::{tip} Take-home
 - **A turbulent flow** is a mean flow plus irregular eddies. In the ocean, $Re$ is huge: the ocean is turbulent.
-- **$\varepsilon$ is the end of the energy chain**: the shear of the current feeds the eddies, the cascade carries the energy down to millimetre-scale eddies, and viscosity dissipates it at the rate $\varepsilon$.
+- **$\varepsilon$ is the end of the energy chain**: the shear of the current feeds the eddies, the cascade carries the energy down to millimeter-scale eddies, and viscosity dissipates it at the rate $\varepsilon$.
 - **Turbulence stirs, molecular diffusion mixes**: the result is a turbulent flux, much stronger than molecular diffusion, whose strength depends on $\varepsilon$.
 :::
