@@ -19,7 +19,7 @@ Both belong to the same ocean. Winds and tides put energy into the ocean. This e
 
 ## Seen from inside the ocean: one night at the equator
 
-On the night of 4 April 2026, at 0°N, 10°W, a vertical microstructure profiler was dropped from R/V *Thalassa*. While falling freely through the water, it measured temperature, oxygen and chlorophyll, and tiny fluctuations of velocity from which we estimate $\varepsilon$, the **dissipation rate of turbulent kinetic energy**. For now, read $\varepsilon$ simply as *"how strong the turbulence is"*. We will see exactly what it means in part 2, and how it is measured in part 4.
+On the night of 4 April 2026, at 0°N, 10°W, a vertical microstructure profiler was dropped from R/V *Thalassa*. While falling freely through the water, it measured temperature, oxygen, and chlorophyll, and tiny fluctuations of velocity from which we estimate $\varepsilon$, the **dissipation rate of turbulent kinetic energy**. For now, read $\varepsilon$ simply as *"how strong the turbulence is"*. We will see exactly what it means in part 2, and how it is measured in part 4.
 
 :::{figure} figures/fig1_profile.png
 :label: fig-profile
@@ -50,7 +50,7 @@ These values are of the same order of magnitude as previous observations in the 
 
 What does $10^{-9}$ W kg⁻¹ mean? A watt is one joule per second, so $\varepsilon$ is the turbulent energy lost by each kilogram of water, every second. Your body at rest uses about 1 W kg⁻¹: a billion times more. But ocean turbulence happens everywhere, all the time. If this value applied to the whole mass of the ocean (about $10^{21}$ kg of seawater), it would add up to about 1 TW, the power of about a thousand nuclear reactors.
 
-Does this turbulence move heat, oxygen and nutrients across these layers, and does it matter for climate, ocean circulation and ecosystems? We come back to this in part 3.
+Does this turbulence move heat, oxygen, and nutrients across these layers, and does it matter for climate, ocean circulation, and ecosystems? We come back to this in part 3.
 
 ::::{note} Your turn: find the special depth
 Compare the four panels of {numref}`fig-profile` side by side, at the same depth.
