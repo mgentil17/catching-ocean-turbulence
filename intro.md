@@ -7,7 +7,7 @@
 
 *From a microstructure profile to a turbulent vertical flux.*
 
-Below the calm surface of the ocean, water is constantly stirred by eddies a few centimeters to a few meters in size. We cannot see them, but they decide how much heat, oxygen and nutrients cross the thermocline, between the sunlit surface layer and the dark ocean interior.
+Below the calm surface of the ocean, water is constantly stirred by eddies a few centimeters to a few meters in size. We cannot see them, but they decide how much heat, oxygen, and nutrients cross the thermocline, between the sunlit surface layer and the dark ocean interior.
 
 In this short course, we follow **one turbulence profile**, measured in the equatorial Atlantic, from the first look at the data to the turbulent fluxes it implies.
 
