@@ -20,7 +20,7 @@ What ocean turbulence is, and the few quantities that describe it: its strength 
 :::
 
 :::{card} 📡 Measure
-How turbulence is measured with a microstructure profiler (VMP), and how to collect reliable data at sea.
+How turbulence is measured with a vertical microstructure profiler (VMP), and how to collect reliable data at sea.
 :::
 
 :::{card} 🧮 Process
@@ -37,11 +37,11 @@ Turbulent fluxes of heat and oxygen in the tropical Atlantic, computed from obse
 
 | | Question | Time |
 |---|---|---|
-| 1 | **What does ocean turbulence look like?** A first look at a real profile. | XX min |
+| 1 | **What does ocean turbulence look like?** A first look at a vertical profile. | XX min |
 | 2 | **What is turbulence?** Eddies, energy cascade, stratification and shear. | XX h |
 | 3 | **Why does it matter?** Effects on sea surface temperature, nutrients, oxygen, and the ocean circulation. | XX h |
 | 4 | **How do we measure it?** Microstructure, the VMP at sea, and the processing chain. | XX h |
-| 5 | **An application:** turbulent fluxes in the tropical Atlantic, with Jupyter notebooks. | XX h |
+| 5 | **An application:** Turbulent fluxes in the tropical Atlantic, with Jupyter notebooks. | XX h |
 
 Parts 1 to 4 are short reading pages. Part 5 is hands-on: the notebooks run in your web browser, there is nothing to install.
 
@@ -51,7 +51,7 @@ All profiles come from the **PIRATA FR-36** cruise on board R/V *Thalassa* (Marc
 
 ## About
 
-Prepared by Mathieu Gentil (LEGOS / IRD, Toulouse) for a workshop at the Universidad de Costa Rica. Comments and corrections are welcome through the [GitHub repository](https://github.com/mgentil17/catching-ocean-turbulence).
+Prepared by Mathieu Gentil (LEGOS / IRD, Toulouse) for a workshop at the Universidad Nacional de Costa Rica. Comments and corrections are welcome through the [GitHub repository](https://github.com/mgentil17/catching-ocean-turbulence).
 
 ::::{grid} 2 2 2 2
 :::{image} figures/logo_legos.png
