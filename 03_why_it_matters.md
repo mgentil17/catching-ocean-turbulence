@@ -4,7 +4,7 @@ numbering:
 ---
 # 3. Why does it matter?
 
-Part 2 showed that turbulence mixes heat, nutrients and oxygen across the water column. Why does it matter? We now look at what this mixing does at a larger scale, over a whole season and a whole region, for each of the three properties of our profile ({numref}`fig-profile`).
+Part 2 explained how turbulence mixes the water, and how $\varepsilon$ gives the turbulent fluxes of heat and other tracers. Does this mixing matter? We now look at what it does at a larger scale, over a whole season and a whole region, for each of the three properties of our profile ({numref}`fig-profile`).
 
 % Time: ~20 min. One idea and one figure per section.
 
@@ -49,7 +49,7 @@ Our profile ({numref}`fig-profile`)b shows the same contrast at a smaller scale:
 
 ## 3.4 Back to our profile
 
-In part 1, we asked whether the turbulence of our profile matters. These three examples show that it does: mixing cools the sea surface, brings nutrients up and brings oxygen down, and it acts most where these properties change strongly with depth, as just below the mixed layer of our profile ({numref}`fig-profile`). How large these fluxes are, at the equator and off the equator, is what we compute in part 5, after learning how $\varepsilon$ is measured (part 4).
+In part 1, we asked whether the turbulence of our profile matters. These three examples show that it can: mixing cools the sea surface, brings nutrients up, and supplies oxygen to the OMZ. In the deep ocean, mixing also makes dense water lighter, so that it can rise back toward the surface: it is a key part of the global overturning circulation (Munk & Wunsch, 1998). How large these fluxes are on our profile, at the equator and off the equator, is what we compute in part 5, after learning how $\varepsilon$ is measured (part 4).
 
 :::{tip} Take-home
 - **Turbulent mixing connects the surface to the ocean interior**: it cools the sea surface temperature, brings nutrients up to phytoplankton, and brings oxygen to the OMZ.
