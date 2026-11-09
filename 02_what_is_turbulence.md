@@ -5,7 +5,7 @@ numbering:
 
 # 2. What is turbulence?
 
-In part 1, we saw a dissipation rate $\varepsilon$ that changes by a factor of 100 with depth. We read $\varepsilon$ as *"how strong the turbulence is"*. Here, we look at what turbulence is, and follow $\varepsilon$: what it is, where it comes from, and what it does to the water.
+In part 1, we saw a dissipation rate $\varepsilon$ that changes by a factor of 100 with depth. Here, we look at what turbulence is, and follow $\varepsilon$: what it is, where it comes from, and what it does to the water.
 
 ## 2.1 A turbulent flow: where $\varepsilon$ lives
 
@@ -39,7 +39,7 @@ $\bar{u}$ is the current, averaged over time or space; $u'$ are the eddies. The 
 
 The word "eddy" is used for two different things. The eddies seen from space in part 1 are tens to hundreds of kilometers across. At these scales, the Earth's rotation and the stratification constrain the motion: these eddies are nearly two-dimensional, and much of their energy moves to *larger* scales (Kraichnan, 1967; Scott & Wang, 2005). The eddies of turbulence are three-dimensional: they are small enough that rotation and stratification no longer constrain them. Energy reaches them from larger motions through other processes, such as breaking internal waves. In this course, we follow the energy of three-dimensional turbulence.
 
-## 2.2 Where $\varepsilon$ comes from: the energy chain
+## 2.2 Where $\varepsilon$ comes from? The energy chain
 
 The energy of these turbulent eddies follows a chain in three steps (Tennekes & Lumley, 1972):
 
@@ -65,7 +65,7 @@ $$
 \eta = \left(\frac{\nu^3}{\varepsilon}\right)^{1/4}
 $$
 
-Between production and dissipation, Kolmogorov (1941) showed that energy is passed on without loss, and that its distribution across scales follows a simple law: the energy spectrum decreases as $k^{-5/3}$, where $k$ is the wavenumber (the inverse of the scale) ({numref}`fig-spectrum`). **$\varepsilon$ says *how much* energy is dissipated, $\eta$ says *at what size***. The more energy, the smaller the last eddies. Because dissipation happens over centimeters, measuring $\varepsilon$ means measuring how the velocity changes over this scale: this is what the vertical microstructure profiler does (part 4).
+Between production and dissipation, Kolmogorov (1941) showed that energy is passed on without loss, and that its distribution across scales follows a simple law: the energy spectrum decreases as $k^{-5/3}$, where $k$ is the wavenumber (the inverse of the scale, a spatial frequency) ({numref}`fig-spectrum`). **$\varepsilon$ says *how much* energy is dissipated, $\eta$ says *at what size***. The more energy, the smaller the last eddies. Because dissipation happens over centimeters, measuring $\varepsilon$ means measuring how the velocity changes over this scale: this is what the vertical microstructure profiler does (part 4).
 
 :::{figure} figures/energy_spectrum.png
 :label: fig-spectrum
