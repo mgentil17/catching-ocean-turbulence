@@ -5,7 +5,7 @@ numbering:
 
 # 1. What does ocean turbulence look like?
 
-## Seen from space: swirls within swirls
+## From large eddies to small turbulence
 
 :::{figure} figures/STS41G-35-94.JPG
 :label: fig-swirls
@@ -13,9 +13,9 @@ numbering:
 Spiral eddies made visible by sun light in the eastern Mediterranean, photographed by astronauts during Space Shuttle mission STS-41G on 7 October 1984 (NASA photo STS41G-35-94, cropped). Image courtesy of the Earth Science and Remote Sensing Unit, NASA Johnson Space Center.
 :::
 
-From space, the ocean surface is full of swirls. {numref}`fig-swirls` shows spiral eddies, typically 10 to 25 km across (Munk et al., 2000). Look closely: each spiral contains smaller swirls and filaments.
+From space, the ocean surface is full of swirls. {numref}`fig-swirls` shows spiral eddies, typically 10 to 25 km across (Munk et al., 2000). These eddies are almost flat: they mostly move water horizontally. The turbulence of this course is about **a million times smaller**: from a few centimeters down to a few millimeters. It is three-dimensional, and it mixes water **across** layers. It is invisible from space. To see it, we have to go into the water.
 
-But these are the *large* eddies of the ocean. The motions that finally mix the water are about **a million times smaller**: from a few centimetres down to a few millimetres. They are invisible from space. To see them, we have to go into the water.
+Both belong to the same ocean. Winds and tides put energy into the ocean. This energy moves through motions of all sizes, and is finally lost at the smallest scales. We come back to this chain of scales in part 2.
 
 ## Seen from inside the ocean: one night at the equator
 
@@ -31,7 +31,7 @@ A night profile at 0°N, 10°W (PIRATA FR-36, 4 April 2026, 00:01 UTC). From lef
 :::::{grid} 1 1 3 3
 
 ::::{card} 🌡️ A layered ocean
-A warm, well-mixed surface layer, about 13 m thick, sits on top of the **thermocline**, where temperature drops by about 10 °C in 50 m. Below, the water is colder and changes slowly.
+A warm surface **mixed layer**, about 13 m thick, sits on top of the **thermocline**, where temperature drops by about 10 °C in 50 m. Below, the water is colder and changes slowly. The profiler does not sample the whole mixed layer, but it catches its base (square).
 ::::
 
 ::::{card} 🫧 Life just below the surface layer
@@ -39,16 +39,18 @@ Oxygen peaks around 40 dbar, then drops quickly: this is the **oxycline**. Chlor
 ::::
 
 ::::{card} 🌀 Turbulence is not uniform
-$\varepsilon$ is of order $10^{-7}$ W kg⁻¹ at the base of the mixed layer and of order $10^{-9}$ W kg⁻¹ around 80 dbar: **a decrease by a factor of about 100 over a few tens of metres**.
+$\varepsilon$ is of order $10^{-7}$ W kg⁻¹ at the base of the mixed layer and of order $10^{-9}$ W kg⁻¹ around 80 dbar: **a decrease by a factor of about 100 over a few tens of meters**.
 ::::
 
 :::::
 
 Note also the grey dots in the $\varepsilon$ panel. Successive estimates, only a few meters apart, can differ by a factor of ten. Turbulence comes **in patches and bursts: it is intermittent**. This is one reason why ocean turbulence is difficult to observe, and why we will average many estimates later on.
 
-These values are of the same order of magnitude as previous observations in the tropical Atlantic (Hummels et al., 2013) and in the global ocean (Waterhouse et al., 2014).
+These values are of the same order of magnitude as previous observations in the tropical Atlantic (Hummels et al., 2013) and in the global ocean (Waterhouse et al., 2014). 
 
-The turbulence peak lies in the thermocline, close to the oxygen and chlorophyll maxima. Does this turbulence move heat, oxygen and nutrients across these layers, and does it matter? We come back to this in part 3.
+What does $10^{-9}$ W kg⁻¹ mean? A watt is one joule per second, so $\varepsilon$ is the turbulent energy lost by each kilogram of water, every second. Your body at rest uses about 1 W kg⁻¹: a billion times more. But ocean turbulence happens everywhere, all the time. If this value applied to the whole mass of the ocean (about $10^{21}$ kg of seawater), it would add up to about 1 TW, the power of about a thousand nuclear reactors.
+
+Does this turbulence move heat, oxygen and nutrients across these layers, and does it matter for climate, ocean circulation and ecosystems? We come back to this in part 3.
 
 ::::{note} Your turn: find the special depth
 Compare the four panels of {numref}`fig-profile` side by side, at the same depth.
@@ -83,6 +85,7 @@ How can a profiler falling through the ocean measure $\varepsilon$?
 
 :::{card} 5. Is it the same elsewhere?
 How does turbulence differ between the equator and off-equator, and what does it change for the fluxes of heat and oxygen?
+:::
 
 ::::
 
