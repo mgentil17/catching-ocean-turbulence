@@ -7,20 +7,20 @@
 
 *From a microstructure profile to a turbulent vertical flux.*
 
-Below the calm surface of the ocean, water is constantly stirred by eddies a few centimetres to a few metres in size. We cannot see them, but they decide how much heat, oxygen and nutrients cross the thermocline, between the sunlit surface layer and the dark ocean interior.
+Below the calm surface of the ocean, water is constantly stirred by eddies a few centimeters to a few meters in size. We cannot see them, but they decide how much heat, oxygen and nutrients cross the thermocline, between the sunlit surface layer and the dark ocean interior.
 
-In this short course, we follow **one real turbulence profile**, measured in the equatorial Atlantic, from the first look at the data to the turbulent fluxes it implies.
+In this short course, we follow **one turbulence profile**, measured in the equatorial Atlantic, from the first look at the data to the turbulent fluxes it implies.
 
 ## What you will take away
 
 ::::{grid} 1 2 2 4
 
 :::{card} 🌀 Understand
-What ocean turbulence is, and the few quantities that describe it: $\varepsilon$, $N^2$, $Ri$, $K$.
+What ocean turbulence is, and the few quantities that describe it: its strength ($\varepsilon$), the stratification ($N^2$), and the turbulent diffusivity ($K_\rho$).
 :::
 
 :::{card} 📡 Measure
-How turbulence is measured with a microstructure profiler (VMP), and how to collect good data at sea.
+How turbulence is measured with a microstructure profiler (VMP), and how to collect reliable data at sea.
 :::
 
 :::{card} 🧮 Process
@@ -28,7 +28,7 @@ The basic steps to go from a raw shear signal to $\varepsilon$, with simple qual
 :::
 
 :::{card} 🌍 Quantify
-Turbulent fluxes of heat and oxygen in the tropical Atlantic, computed from real data.
+Turbulent fluxes of heat and oxygen in the tropical Atlantic, computed from observations.
 :::
 
 ::::
@@ -39,7 +39,7 @@ Turbulent fluxes of heat and oxygen in the tropical Atlantic, computed from real
 |---|---|---|
 | 1 | **What does ocean turbulence look like?** A first look at a real profile. | XX min |
 | 2 | **What is turbulence?** Eddies, energy cascade, stratification and shear. | XX h |
-| 3 | **Why does it matter?** From turbulence to vertical fluxes of heat, oxygen and nutrients. | XX h |
+| 3 | **Why does it matter?** Effects on sea surface temperature, nutrients, oxygen, and the ocean circulation. | XX h |
 | 4 | **How do we measure it?** Microstructure, the VMP at sea, and the processing chain. | XX h |
 | 5 | **An application:** turbulent fluxes in the tropical Atlantic, with Jupyter notebooks. | XX h |
 
