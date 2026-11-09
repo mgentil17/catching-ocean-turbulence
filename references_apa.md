@@ -38,6 +38,8 @@ Müller, P., & Garrett, C. (2002). From stirring to mixing in a stratified ocean
 
 Munk, W., Armi, L., Fischer, K., & Zachariasen, F. (2000). Spirals on the sea. *Proceedings of the Royal Society of London A*, *456*, 1217–1280.
 
+Munk, W., & Wunsch, C. (1998). Abyssal recipes II: Energetics of tidal and wind mixing. Deep-Sea Research Part I: Oceanographic Research Papers, 45(12), 1977–2010. https://doi.org/10.1016/S0967-0637(98)00070-3
+
 Nasmyth, P. W. (1970). *Oceanic turbulence* (Doctoral dissertation, University of British Columbia).
 
 Osborn, T. R. (1980). Estimates of the local rate of vertical diffusion from dissipation measurements. *Journal of Physical Oceanography*, *10*(1), 83–89.
