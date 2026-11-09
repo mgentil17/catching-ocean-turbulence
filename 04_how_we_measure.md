@@ -110,11 +110,13 @@ $$
 \varepsilon = \frac{15}{2}\,\nu \left\langle \left(\frac{\partial u'}{\partial z}\right)^2 \right\rangle = \frac{15}{2}\,\nu \int_{k_1}^{k_2} \Psi(k)\,\mathrm{d}k
 $$
 
-where $\nu$ is the viscosity of seawater. We only add up the sizes where the probe sees turbulence and not noise, from $k_1$ to $k_2$ (typically about 1 to 100 cpm). The spectrum is averaged over a segment of a few meters, which gives one value of $\varepsilon$. This is a compromise: a longer segment gives a more stable estimate, a shorter one keeps more vertical detail. This length is chosen in the processing chain.
+where $\nu$ is the viscosity of seawater. We only add up the sizes where the probe sees turbulence and not noise, from $k_1$ to $k_2$. In {numref}`fig-processed`f, $k_1$ is about 0.5 cpm, and $k_2$ is about 30 cpm in the turbulent segment and about 10 cpm in the quiet one. The spectrum is averaged over a segment of a few meters, which gives one value of $\varepsilon$. This is a compromise: a longer segment gives a more stable estimate, a shorter one keeps more vertical detail. This length is chosen in the processing chain.
 
 **Checking with the theory.** Theory tells us what the curve should look like for a given $\varepsilon$ (Nasmyth, 1970; Lueck, 2022). So we check that the measured spectrum has this shape. If it does, $\varepsilon$ is reliable; if it does not, because of noise or vibrations, the estimate is rejected. The theoretical curve is also used to add the smallest eddies, too small for the probe to see.
 
 **Two limits.** When turbulence is very strong, the smallest eddies become smaller than the probe itself (about a centimeter), and it cannot see them all. When turbulence is very weak, the signal becomes smaller than the noise of the instrument, around $10^{-10}$ W kg⁻¹. Our profile, with $\varepsilon$ between $10^{-9}$ and $10^{-7}$ W kg⁻¹, lies well between these two limits.
+
+Near the surface, the first meters are lost: the VMP is not yet falling freely, and the ship's wake disturbs the water. On our profile, the data start at about 13 dbar. To measure turbulence closer to the surface, other instruments are used, such as profilers that rise toward the surface.
 
 :::{figure} figures/fig4_processed.png
 :label: fig-processed
@@ -125,8 +127,8 @@ The same profile (station 26) after processing with the toolbox of C. Vic. (d) $
 How to read {numref}`fig-processed`:
 
 - **(d)** Each probe gives its own $\varepsilon$ (blue and red). The final value (white squares) is the mean of the two when both pass the quality checks, or the value of the only probe that passes them. Here, $\varepsilon$ is high in the upper part of the profile and in a patch around 100–110 dbar (near 1310 s), as seen on board ({numref}`fig-check`).
-- **(e)** If the two probes measure the same turbulence, their $\varepsilon$ fall close to the diagonal. Points far from it (in red) are rejected. The other labels ($\varepsilon_{isr}$, "isr kept") refer to another method, used only for very strong turbulence; it is not used here.
-- **(f)** Each curve is the shear spectrum of one probe over one segment, after removing the vibrations. When it follows the grey model, $\varepsilon$ is well estimated. The upper pair comes from a turbulent segment: its spectrum is higher and extends to smaller eddies (larger $k$), as in the spectrum of section 2.2. The lower pair comes from a quiet segment. At the largest wavenumbers, the measured curves rise again: this is noise and vibrations, not turbulence, and it is left out of the integral.
+- **(e)** Each point compares the two probes. Close to the diagonal, the two probes agree. But this is not enough: each estimate must also pass the quality checks. This is why some red points, rejected, lie close to the diagonal. When the two probes disagree, $\varepsilon$ can still come from the probe that passes the checks (panel d). The other labels ($\varepsilon_{isr}$, "isr kept") refer to another method, used only for very strong turbulence; it is not used here.
+- **(f)** Each curve is the shear spectrum of one probe over one segment, after removing the vibrations. When it follows the grey model, $\varepsilon$ is well estimated. The upper pair comes from a turbulent segment: its spectrum is higher and extends to smaller eddies (larger $k$), as in the spectrum of section 2.2. The lower pair comes from a quiet segment. AAt the largest wavenumbers, the curves rise again: this is noise, not turbulence. So the upper limit $k_2$ is chosen in each segment, before this noise. In a quiet segment, the eddies that dissipate are larger (section 2.2): most of the spectrum lies before the noise, and $\varepsilon$ is still reliable.
 
 The L4 level of our files gives $\varepsilon$ with pressure, temperature, salinity and oxygen. This is all we need for part 5: from these profiles we compute $N^2$, then $K_\rho = \Gamma\varepsilon/N^2$, then the fluxes.
 
