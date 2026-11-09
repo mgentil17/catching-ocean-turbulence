@@ -43,7 +43,7 @@ Turbulent fluxes of heat and oxygen in the tropical Atlantic, computed from obse
 | 4 | **How do we measure it?** Microstructure, the VMP at sea, and the processing chain. | XX h |
 | 5 | **An application:** Turbulent fluxes in the tropical Atlantic, with Jupyter notebooks. | XX h |
 
-Parts 1 to 4 are short reading pages. Part 5 is hands-on: the notebooks run in your web browser, there is nothing to install.
+Parts 1 to 4 are short reading pages. Part 5 is hands-on, with Jupyter notebooks.
 
 ## Data
 
