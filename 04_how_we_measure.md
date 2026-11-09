@@ -53,7 +53,7 @@ The nose of a VMP-250, with its two shear probes, a fast thermistor (FP07), the 
 
 ## 4.3 Operating a VMP at sea
 
-Good data start on deck ({numref}`fig-deploy`). The points below follow the recommendations of Rockland Scientific, the manufacturer, and common practice at sea.
+Reliable data start on deck ({numref}`fig-deploy`). The points below follow the recommendations of Rockland Scientific, the manufacturer, and common practice at sea.
 
 :::{figure} figures/vmp_deployment.png
 :label: fig-deploy
@@ -104,7 +104,7 @@ Quick check of a VMP profile on board with Zissou Essentials. (a) Kinematics: vi
 
 Steps 2 to 4 can be done with the toolbox of Vic et al., in prep (https://github.com/cvic29/py-ocean-microstructure/tree/main).
 
-**The shear spectrum.** Over a segment of a few meters, the shear signal mixes eddies of all sizes. Like a prism that splits light into colours, the **shear spectrum** $\Psi(k)$ splits this signal into eddy sizes: it tells how much shear comes from each size. The size is given by the **wavenumber** $k$, the number of oscillations per metre (cpm): large eddies on the left, small eddies on the right. Adding up all sizes, that is, taking the area under the curve, gives back the total shear, and therefore $\varepsilon$ (section 4.1):
+**The shear spectrum.** Over a segment of a few meters, the shear signal mixes eddies of all sizes. Like a prism that splits light into colours, the **shear spectrum** $\Psi(k)$ splits this signal into eddy sizes: it tells how much shear comes from each size. The size is given by the **wavenumber** $k$, the number of cycles per meter (cpm): large eddies on the left, small eddies on the right. Adding up all sizes, that is, taking the area under the curve, gives back the total shear, and therefore $\varepsilon$ (section 4.1):
 
 $$
 \varepsilon = \frac{15}{2}\,\nu \left\langle \left(\frac{\partial u'}{\partial z}\right)^2 \right\rangle = \frac{15}{2}\,\nu \int_{k_1}^{k_2} \Psi(k)\,\mathrm{d}k
@@ -134,6 +134,6 @@ The L4 level of our files gives $\varepsilon$ with pressure, temperature, salini
 
 :::{tip} Take-home
 - **Turbulence is measured at centimeter scales**, with shear probes ($\varepsilon$) or fast thermistors ($\chi$), on many platforms.
-- **Good $\varepsilon$ starts at sea** with a well-flying instrument, and continues with a standard processing (ATOMIX) from shear to $\varepsilon$.
+- **GReliable $\varepsilon$ starts on board** with a well-flying instrument, and continues with a standard processing (ATOMIX) from shear to $\varepsilon$.
 :::
 
