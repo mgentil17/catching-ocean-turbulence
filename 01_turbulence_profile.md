@@ -44,9 +44,7 @@ $\varepsilon$ is of order $10^{-7}$ W kg⁻¹ at the base of the mixed layer and
 
 :::::
 
-Note also the grey dots in the $\varepsilon$ panel. Successive estimates, only a few meters apart, can differ by a factor of ten. Turbulence comes **in patches and bursts: it is intermittent**. This is one reason why ocean turbulence is difficult to observe, and why we will average many estimates later on.
-
-These values are of the same order of magnitude as previous observations in the tropical Atlantic (Hummels et al., 2013) and in the global ocean (Waterhouse et al., 2014). 
+Note also the grey dots in the $\varepsilon$ panel. Successive estimates, only a few meters apart, can differ by a factor of ten. Turbulence comes **in patches and bursts: it is intermittent**. This is one reason why ocean turbulence is difficult to observe, and why we will average many estimates later on. These values are of the same order of magnitude as previous observations in the tropical Atlantic (Hummels et al., 2013) and in the global ocean (Waterhouse et al., 2014). 
 
 What does $10^{-9}$ W kg⁻¹ mean? A watt is one joule per second, so $\varepsilon$ is the turbulent energy lost by each kilogram of water, every second. Your body at rest uses about 1 W kg⁻¹: a billion times more. But ocean turbulence happens everywhere, all the time. If this value applied to the whole mass of the ocean (about $10^{21}$ kg of seawater), it would add up to about 1 TW, the power of about a thousand nuclear reactors.
 
