@@ -5,11 +5,11 @@ numbering:
 
 # 2. What is turbulence?
 
-In part 1, we saw what ocean turbulence looks like: swirls within swirls, and a dissipation rate $\varepsilon$ that changes by a factor of 100 with depth. We read $\varepsilon$ as *"how strong the turbulence is"*. Here, we look at what turbulence is, and follow $\varepsilon$: what it is, where it comes from, and what it does to the water.
+In part 1, we saw a dissipation rate $\varepsilon$ that changes by a factor of 100 with depth. We read $\varepsilon$ as *"how strong the turbulence is"*. Here, we look at what turbulence is, and follow $\varepsilon$: what it is, where it comes from, and what it does to the water.
 
 ## 2.1 A turbulent flow: where $\varepsilon$ lives
 
-In 1883, Reynolds injected a thin filament of dye into water flowing through a glass tube. At low speed, the filament stayed straight: the flow was **laminar** ({numref}`fig-reynolds`, top). At higher speed, it suddenly mixed with the water and filled the tube: the flow had become **turbulent** (middle). Lit by an electric spark, the coloured cloud resolved into distinct curls: **eddies** (bottom).
+In 1883, Reynolds injected a thin filament of dye into water flowing through a glass tube. At low speed, the filament stayed straight: the flow was **laminar** ({numref}`fig-reynolds`, top). At higher speed, it suddenly mixed with the water and filled the tube: the flow had become **turbulent** (middle). Lit by an electric spark, the colored cloud resolved into distinct curls: **eddies** (bottom).
 
 :::{figure} figures/reynolds1883.png
 :label: fig-reynolds
@@ -23,7 +23,7 @@ $$
 Re = \frac{U L}{\nu}
 $$
 
-It compares **inertia** ($U$ a velocity, $L$ the scale over which it changes), which stretches the flow into smaller and smaller structures, with **viscosity** ($\nu \approx 10^{-6}$ m² s⁻¹ for seawater), which smooths them out. In a tube, the flow becomes turbulent above $Re>2000$. In the ocean, $Re$ reaches $10^6$ for a current changing by 0.1 m s⁻¹ over 10 m, and $10^{11}$ at the scale of a basin (Stewart, 2008). **The ocean is turbulent.**
+It compares **inertia** ($U$ a velocity, $L$ the scale over which it changes), which stretches the flow into smaller and smaller structures, with **viscosity** ($\nu \approx 10^{-6}$ m² s⁻¹ for seawater), which smooths them out. In a tube, the flow becomes turbulent above $Re \approx 2000. In the ocean, $Re$ reaches $10^6$ for a current changing by 0.1 m s⁻¹ over 10 m, and $10^{11}$ at the scale of a basin (Stewart, 2008). **The ocean is turbulent.**
 
 :::{dropdown} Where does $Re$ come from?
 In the equation of motion of a fluid (the Navier–Stokes equation), inertia appears in the advection term $(\mathbf{u}\cdot\nabla)\mathbf{u}$, of order $U^2/L$, and viscosity in the term $\nu\nabla^2\mathbf{u}$, of order $\nu U/L^2$. Their ratio is $UL/\nu = Re$. When $Re$ is large, viscosity is negligible at the scale $L$ of the flow.
@@ -37,21 +37,29 @@ $$
 
 $\bar{u}$ is the current, averaged over time or space; $u'$ are the eddies. The energy of the eddies is the **turbulent kinetic energy**, $\frac{1}{2}\left(\overline{u'^2} + \overline{v'^2} + \overline{w'^2}\right)$, per kilogram of water. $\varepsilon$ is the rate at which this energy is lost.
 
+The word "eddy" is used for two different things. The eddies seen from space in part 1 are tens to hundreds of kilometers across. At these scales, the Earth's rotation and the stratification constrain the motion: these eddies are nearly two-dimensional, and much of their energy moves to *larger* scales (Kraichnan, 1967; Scott & Wang, 2005). The eddies of turbulence are three-dimensional: they are small enough that rotation and stratification no longer constrain them. Energy reaches them from larger motions through other processes, such as breaking internal waves. In this course, we follow the energy of three-dimensional turbulence.
+
 ## 2.2 Where $\varepsilon$ comes from: the energy chain
 
-The energy of the eddies follows a chain in three steps (Tennekes & Lumley, 1972):
+The energy of these turbulent eddies follows a chain in three steps (Tennekes & Lumley, 1972):
 
-1. **Production.** Where the current changes with depth (the **shear**), the current gives part of its energy to the eddies. Winds, tides and currents are the original sources of this shear.
-2. **Cascade.** Large eddies break into smaller eddies, which break into even smaller ones. As Richardson, 2007 write:
+1. **Production.** Where the current changes with depth (the **shear**), the current gives part of its energy to the eddies. Winds, tides and currents are the original sources of this shear. In the ocean, currents change much faster with depth than horizontally: over tens of meters vertically, against tens of kilometers horizontally. This is why we focus on the vertical shear.
+2. **Cascade.** The largest turbulent eddies break into smaller eddies, which break into even smaller ones. As Richardson, 2007 wrote:
 
    > *Big whirls have little whirls that feed on their velocity,*\
    > *and little whirls have lesser whirls and so on to viscosity.*
 
 3. **Dissipation.** When the eddies are only millimeters to centimeters across, viscosity can finally act: it turns their energy into heat.
 
-**$\varepsilon$ is the rate of this last step**: the energy dissipated by viscosity, per kilogram of water and per second (W kg⁻¹). When turbulence is steady, what is dissipated at the end of the chain is what was produced at the start: **$\varepsilon$ tells us how much energy flows through turbulence**. In a stratified ocean, part of the energy is also used to lift dense water; we come back to this in part 3 (Osborn, 1980).
+**$\varepsilon$ is the rate of this last step**: the energy dissipated by viscosity, per kilogram of water and per second (W kg⁻¹). When turbulence is steady, what is dissipated at the end of the chain is what was produced at the start: **$\varepsilon$ tells us how much energy flows through turbulence**. In a stratified ocean, part of the energy is also used to lift dense water; we come back to this in section 2.3.
 
-The size of the eddies where dissipation happens is the **Kolmogorov scale** (Kolmogorov, 1941). It depends only on the viscosity and on $\varepsilon$:
+The size of the largest turbulent eddies is set by the stratification. Above the **Ozmidov scale** (Ozmidov, 1965), the stratification flattens the eddies; below it, they are three-dimensional:
+
+$$
+L_O = \left(\frac{\varepsilon}{N^3}\right)^{1/2}
+$$
+
+where $N$ measures the strength of the stratification (section 2.3). The size of the smallest eddies, where dissipation happens, is the **Kolmogorov scale** (Kolmogorov, 1941). It depends only on the viscosity and on $\varepsilon$:
 
 $$
 \eta = \left(\frac{\nu^3}{\varepsilon}\right)^{1/4}
@@ -63,10 +71,6 @@ Between production and dissipation, Kolmogorov (1941) showed that energy is pass
 :label: fig-spectrum
 :width: 85%
 The energy chain of turbulence, seen across eddy sizes: our schematic of the classic energy spectrum of turbulence (e.g., Tennekes & Lumley, 1972). The wavenumber $k$ is the inverse of the eddy size: large eddies on the left, small eddies on the right. The energy spectrum $E(k)$ shows how much energy the eddies of each size hold. Energy enters at the largest eddies (size $l$), is passed on to smaller eddies along a slope in $k^{-5/3}$ (inertial range), and is turned into heat near the Kolmogorov scale $\eta$, at the rate $\varepsilon$.
-:::
-
-:::{dropdown} Does energy always go to smaller scales?
-No. In the ocean, large eddies (tens to hundreds of kilometres) are nearly two-dimensional because of the Earth's rotation and the stratification, and part of their energy moves to *larger* scales: this is the inverse cascade (Kraichnan, 1967; Scott & Wang, 2005). In this course, we follow the energy that goes down to small scales.
 :::
 
 ## 2.3 What $\varepsilon$ tells us: stirring and mixing
@@ -95,13 +99,15 @@ $$
 \overline{w'T'} = -K_\rho\,\frac{\partial \bar{T}}{\partial z}
 $$
 
-$K_\rho$ depends on the flow, and this is where $\varepsilon$ comes back. In a stratified ocean, mixing means lifting dense water, which costs energy. Osborn (1980) assumed that the energy used for mixing is about 0.2 times the energy dissipated, $\varepsilon$ (section 2.2). This gives:
+$K_\rho$ depends on the flow, and this is where $\varepsilon$ comes back. In a stratified ocean, mixing costs energy: dense water must be lifted up, and light water pushed down. Of the energy that the shear gives to the eddies, most is dissipated ($\varepsilon$), and a small part lifts dense water. Osborn (1980) assumed that this small part is about 0.2 times $\varepsilon$: for every 5 joules dissipated, about 1 joule lifts dense water. This gives:
 
 $$
 K_\rho = \Gamma\,\frac{\varepsilon}{N^2}
 $$
 
-with $\Gamma \approx 0.2$ (a common choice, though not universal; Gregg et al., 2018) and $N^2 = -(g/\rho_0)\,\partial\rho/\partial z$ the strength of the stratification. More energy means more mixing; stronger stratification means less. **This is why we measure $\varepsilon$**: with $N^2$, it gives $K_\rho$, and then the turbulent fluxes of heat and oxygen (part 3). We assume here that heat and oxygen are mixed like density, with the same $K_\rho$.
+with $\Gamma \approx 0.2$ (a common choice, though not universal; Gregg et al., 2018) and $N^2 = -(g/\rho_0)\,\partial\rho/\partial z$ the strength of the stratification. More energy dissipated means more mixing; stronger stratification means less. **This is why we measure $\varepsilon$**: with $N^2$, it gives $K_\rho$. We use the same $K_\rho$ for heat, salt and oxygen. Where turbulence is strong, $K_\rho$ is much larger than the molecular diffusivity of heat, salt or oxygen: eddies mix them all at the same rate. This is a good approximation, but not always valid, for example with double diffusion. With $K_\rho$, we compute the turbulent fluxes of heat and oxygen in part 3.
+
+Eddies also carry the speed of the currents. A parcel of slow water moving up into a faster layer slows it down; a parcel of fast water moving down speeds up the slower layer below. This **momentum flux**, $\overline{u'w'}$, acts as a friction between layers of current. At the surface, it also passes the push of the wind into the ocean. It is described by another coefficient, the turbulent viscosity $K_m$. $K_m$ is not equal to $K_\rho$: their ratio, the turbulent Prandtl number $Pr_t = K_m/K_\rho$, depends on the stratification, because momentum can also be carried by pressure, through waves, without moving water. We do not treat it here.
 
 % In class: a glass of water with a drop of dye, left at rest, then stirred with a spoon.
 
@@ -115,25 +121,25 @@ Let us look again at our profile ({numref}`fig-profile`) with what we now know.
 At the base of the mixed layer, each kilogram of water dissipates about $10^{-7}$ W. Around 80 dbar, about $10^{-9}$ W: **100 times less energy** flows through turbulence there.
 ::::
 
-::::{card} 🔬 The last eddies
-With $\varepsilon = 10^{-7}$ W kg⁻¹, the Kolmogorov scale is about **2 mm**; with $10^{-9}$ W kg⁻¹, about **6 mm**. The eddies that dissipate the energy are a few times larger, millimeters to centimeters: this is why we talk about **micro**structure.
+::::{card} 🔬 The size of turbulent eddies
+On our profile, the largest turbulent eddies (Ozmidov scale) are about 2 to 9 cm across, and the smallest (Kolmogorov scale) about 2 to 4 mm. Turbulence lives between these two sizes: this is why we talk about **micro**structure.
 ::::
 
 ::::{card} 🌀 Where the gradients are
-The peak of $\varepsilon$ around 40–45 dbar lies in the layer where temperature changes fastest, and where oxygen and chlorophyll reach their maximum: turbulence is strong where there are strong gradients to mix.
+On our profile, $\varepsilon$ shows a subsurface peak around 40–45 dbar, in the layer where temperature changes fastest, and where oxygen and chlorophyll reach their maximum.
 ::::
 
 :::::
 
 ::::{note} Your turn
-What would the Kolmogorov scale be in a very energetic layer, with $\varepsilon = 10^{-5}$ W kg⁻¹ ($\nu = 10^{-6}$ m² s⁻¹)?
+In a very energetic layer, $\varepsilon = 10^{-5}$ W kg⁻¹, with $N^2 = 10^{-3}$ s⁻² and $\nu = 10^{-6}$ m² s⁻¹. What are the Kolmogorov scale and the Ozmidov scale? Compare with our profile.
 
 :::{dropdown} Answer
-$\eta \approx 0.6$ mm: the more energy, the smaller the scales of dissipation, and the finer the profiler must resolve (part 4).
+$\eta \approx 0.6$ mm and $L_O \approx 0.6$ m. Turbulent eddies now range over three orders of magnitude, from tens of centimeters to below a millimeter. The more energy, the larger the range, and the finer the profiler must resolve (part 4).
 :::
 ::::
 
-Turbulence is strongest where temperature, oxygen and chlorophyll change fastest with depth. If it mixes heat, oxygen and nutrients across the thermocline, what does this change for the ocean, the atmosphere and marine life? This is part 3.
+On our profile, the subsurface peak of turbulence lies where temperature, oxygen and chlorophyll change fast with depth. If it mixes heat, oxygen and nutrients across the thermocline, what does this change for the ocean, the atmosphere and marine life? This is part 3.
 
 :::{tip} Take-home
 - **A turbulent flow** is a mean flow plus irregular eddies. In the ocean, $Re$ is huge: the ocean is turbulent.
