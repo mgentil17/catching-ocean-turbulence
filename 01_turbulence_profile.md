@@ -31,7 +31,7 @@ A night profile at 0°N, 10°W (PIRATA FR-36, 4 April 2026, 00:01 UTC). From lef
 :::::{grid} 1 1 3 3
 
 ::::{card} 🌡️ A layered ocean
-A warm surface **mixed layer**, about 13 m thick, sits on top of the **thermocline**, where temperature drops by about 10 °C in 50 m. Below, the water is colder and changes slowly. The profiler does not sample the whole mixed layer, but it catches its base (square).
+A warm surface **mixed layer**, about 13 dbar thick, sits on top of the **thermocline**, where temperature drops by about 10 °C in 50 dbar. Below, the water is colder and changes slowly. The profiler does not sample the whole mixed layer, but it catches its base (square).
 ::::
 
 ::::{card} 🫧 Life just below the surface layer
